@@ -1,0 +1,87 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Question page
+{% endblock %}
+
+{% block beforeContent %}
+  <a class="govuk-back-link" href="/url/of/previous/page">Back</a>
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-xl">
+        Policy data
+      </h1>
+
+
+        <p class="govuk-body-m"><a href="/v1/policy-data" class="govuk-link">
+        Download policies data</a> CSV, 19.5 KB</p>
+
+      </div>
+</div>
+
+<br>
+<br>
+
+<style>
+    .govuk-table__header--numeric, 
+    .govuk-table__cell--numeric {
+        text-align: left;
+    }
+</style>
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+<table class="govuk-table">
+  <caption class="govuk-table__caption"></caption>
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">ID</th>
+      <th scope="col" class="govuk-table__header govuk-table__header--numeric">Name</th>
+      <th scope="col" class="govuk-table__header govuk-table__header--numeric" >Area</th>
+      <th scope="col" class="govuk-table__header govuk-table__header--numeric">Status</th>
+      <th scope="col" class="govuk-table__header govuk-table__header--numeric">Commitment</th>
+      <th scope="col" class="govuk-table__header govuk-table__header--numeric">Type</th>
+            <th scope="col" class="govuk-table__header govuk-table__header--numeric">Spatial element</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell govuk-table__cell--numeric">LP49</td>
+      <td class="govuk-table__cell govuk-table__cell--numeric">Protecting character and setting</td>
+        <td class="govuk-table__cell govuk-table__cell--numeric">Housing</td>
+        <td class="govuk-table__cell govuk-table__cell--numeric">Adopted</td>
+        <td class="govuk-table__cell govuk-table__cell--numeric">3467</td>
+        <td class="govuk-table__cell govuk-table__cell--numeric">Strategic</td>
+        <td class="govuk-table__cell govuk-table__cell--numeric">Central Argleton</td>
+    </tr>
+    <tr class="govuk-table__row">
+     <td class="govuk-table__cell govuk-table__cell--numeric">LP50</td>
+      <td class="govuk-table__cell govuk-table__cell--numeric">Sustainable urban 
+extensions</td>
+        <td class="govuk-table__cell govuk-table__cell--numeric">Housing</td>
+        <td class="govuk-table__cell govuk-table__cell--numeric">Adopted</td>
+        <td class="govuk-table__cell govuk-table__cell--numeric">-</td>
+        <td class="govuk-table__cell govuk-table__cell--numeric">Strategic</td>
+        <td class="govuk-table__cell govuk-table__cell--numeric">Central Argleton</td>
+    </tr>
+    <tr class="govuk-table__row">
+     <td class="govuk-table__cell govuk-table__cell--numeric">LP51</td>
+      <td class="govuk-table__cell govuk-table__cell--numeric">Residential
+Allocations</td>
+        <td class="govuk-table__cell govuk-table__cell--numeric">Housing</td>
+        <td class="govuk-table__cell govuk-table__cell--numeric">Adopted</td>
+        <td class="govuk-table__cell govuk-table__cell--numeric">1739</td>
+        <td class="govuk-table__cell govuk-table__cell--numeric">Strategic</td>
+        <td class="govuk-table__cell govuk-table__cell--numeric">Central Argleton</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+{% endblock %}
