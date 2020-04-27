@@ -1,0 +1,107 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Housing
+{% endblock %}
+
+{% block beforeContent %}
+  <a class="govuk-back-link" href="/v1/">Back</a>
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-xl">
+        Housing
+      </h1>
+
+      <p class="govuk-body-l">Our housing strategy ensures that the housing stock meets the housing needs of the Argleton county area.</p>
+
+        <p class="govuk-body-m"><a href="/v1/policy-data" class="govuk-link">
+        Download Housing policies data</a> CSV, 14.7 KB</p>
+      
+      <h2 class="govuk-heading-l"> Policies
+        Housing
+      </h2>
+
+
+      <h3 class="govuk-heading-m accordion-default-heading-1" style="color:#1d70b8;"> Planning contributions  <strong class="govuk-tag  govuk-tag--orange">
+  Consultation
+</strong>
+
+      </h3>
+
+      <p>A draft planning contributions DPD is being published for public consultation. It’s intended to provide guidance and to supplement the Local Plan 2033.</p>
+
+      <p>The consultation is open from 18 February until 25 April 2020.</p>
+
+      <button class="govuk-button" data-module="govuk-button">
+  Have your say
+</button>
+
+
+{% from "govuk/components/accordion/macro.njk" import govukAccordion %}
+
+{{ govukAccordion({
+  id: "accordion-default",
+  items: [
+    {
+      heading: {
+        html: "Affordable housing <strong class='govuk-tag'>Adopted</strong>"
+      },
+      content: {
+        html: "<a href='#'>Housing DPD</a><p class='govuk-body'>This document forms the basis for negotiations of affordable housing provision on all proposals for residential and mixed use developments in the borough. The output of affordable housing is reviewed yearly in the authority monitoring report.</p>
+
+        <a href='#'>Interim implementation of the Affordable Housing Policy</a><p class='govuk-body'>This note sets out how the council will apply its affordable housing policy and how payments in lieu are calculated. Please note Gross Internal Area is now used for the calculations and the per unit sum figures stated in the Interim Note are out of date. The correct figures are given below.</p>
+        
+        "
+      }
+    },
+    {
+      heading: {
+          html: "Housing supply <strong class='govuk-tag'>Adopted</strong>"
+
+      },
+      content: {
+        html: "<p class='govuk-body'></p>"
+      }
+    },
+      {
+      heading: {
+          html: "Planning contributions <strong class='govuk-tag'>Adopted</strong>"
+
+      },
+      content: {
+        html: "<p class='govuk-body'></p>"
+      }
+    },
+      {
+      heading: {
+          html: "Policy 4 <strong class='govuk-tag'>Adopted</strong>"
+      },
+      content: {
+        html: ""
+      }
+    }
+  ]
+}) }}
+
+
+  <br>
+  <br>
+     <h2 class="govuk-heading-l"> Monitoring
+      </h2>
+      <p>
+      Housing Delivery was on target. Housing policy has been effective at delivering the homes needed by the Borough, with 7,165 new homes delivered or 101% of its target between FY2013 and FY2017.</p>
+
+      <p>This housing supply is made up of conventional self-contained homes which form the majority, as well as long-term empty homes returning to use and non-conventional homes such as student halls. Of the conventional supply on sites delivering ten or more units, 42% of homes were in affordable tenures.</p>
+
+      <p>New housing has been delivered across the borough but growth is focussed in the north of the borough, in and around Central Argleton.
+      </p>
+
+    </div>
+  </div>
+
+{% endblock %}
