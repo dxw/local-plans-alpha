@@ -20,11 +20,18 @@ $govuk-assets-path: '/govuk/assets/';
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
 
 .hero-banner {
+
+
+
     background-color: #1d70b8;
-    margin-top: -50px;
+    margin-top: -10px;
     h1, p {
         color: #ffffff !important;
     }
+}
+
+.center {
+    margin: 0 auto;
 }
 
 .govuk-link,
