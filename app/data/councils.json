@@ -1,0 +1,2336 @@
+[
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Adur District Council",
+     "local-authority-eng":"ADU",
+     "name":"Adur"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Allerdale Borough Council",
+     "local-authority-eng":"ALL",
+     "name":"Allerdale"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Amber Valley Borough Council",
+     "local-authority-eng":"AMB",
+     "name":"Amber Valley"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Arun District Council",
+     "local-authority-eng":"ARU",
+     "name":"Arun"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Ashfield District Council",
+     "local-authority-eng":"ASH",
+     "name":"Ashfield"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Ashford Borough Council",
+     "local-authority-eng":"ASF",
+     "name":"Ashford"
+  },
+  {
+     "end-date":"2020-03-31",
+     "local-authority-type":"NMD",
+     "official-name":"Aylesbury Vale District Council",
+     "local-authority-eng":"AYL",
+     "name":"Aylesbury Vale"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Babergh District Council",
+     "local-authority-eng":"BAB",
+     "name":"Babergh"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"Barnsley Metropolitan Borough Council",
+     "local-authority-eng":"BNS",
+     "name":"Barnsley",
+     "start-date":"1974-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Barrow-in-Furness Borough Council",
+     "local-authority-eng":"BAR",
+     "name":"Barrow-in-Furness"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Basildon Borough Council",
+     "local-authority-eng":"BAI",
+     "name":"Basildon"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Basingstoke and Deane Borough Council",
+     "local-authority-eng":"BAN",
+     "name":"Basingstoke and Deane"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Bassetlaw District Council",
+     "local-authority-eng":"BAE",
+     "name":"Bassetlaw"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Bath and North East Somerset Council",
+     "local-authority-eng":"BAS",
+     "name":"Bath and North East Somerset",
+     "start-date":"1996-04-01"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Bedford Borough Council",
+     "local-authority-eng":"BDF",
+     "name":"Bedford",
+     "start-date":"2009-04-01"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"Birmingham City Council",
+     "local-authority-eng":"BIR",
+     "name":"Birmingham",
+     "start-date":"1986-07-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Blaby District Council",
+     "local-authority-eng":"BLA",
+     "name":"Blaby"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Blackburn with Darwen Borough Council",
+     "local-authority-eng":"BBD",
+     "name":"Blackburn with Darwen",
+     "start-date":"1998-04-01"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Blackpool Borough Council",
+     "local-authority-eng":"BPL",
+     "name":"Blackpool",
+     "start-date":"1905-06-20"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Bolsover District Council",
+     "local-authority-eng":"BOS",
+     "name":"Bolsover"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"Bolton Metropolitan Borough Council",
+     "local-authority-eng":"BOL",
+     "name":"Bolton",
+     "start-date":"1974-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Borough Council of King's Lynn and West Norfolk",
+     "local-authority-eng":"KIN",
+     "name":"King's Lynn and West Norfolk"
+  },
+  {
+     "end-date":"2019-03-31",
+     "local-authority-type":"UA",
+     "official-name":"Borough of Poole",
+     "local-authority-eng":"POL",
+     "name":"Poole",
+     "start-date":"1997-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Boston Borough Council",
+     "local-authority-eng":"BOT",
+     "name":"Boston"
+  },
+  {
+     "end-date":"2019-03-31",
+     "local-authority-type":"UA",
+     "official-name":"Bournemouth Borough Council",
+     "local-authority-eng":"BMH",
+     "name":"Bournemouth",
+     "start-date":"1905-06-19"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Bournemouth, Christchurch and Poole Council",
+     "local-authority-eng":"BPC",
+     "name":"Bournemouth, Christchurch and Poole",
+     "start-date":"2019-04-01"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Bracknell Forest Council",
+     "local-authority-eng":"BRC",
+     "name":"Bracknell Forest",
+     "start-date":"1998-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Braintree District Council",
+     "local-authority-eng":"BRA",
+     "name":"Braintree"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Breckland District Council",
+     "local-authority-eng":"BRE",
+     "name":"Breckland"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Brentwood Borough Council",
+     "local-authority-eng":"BRW",
+     "name":"Brentwood"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Brighton and Hove City Council",
+     "local-authority-eng":"BNH",
+     "name":"Brighton and Hove",
+     "start-date":"1905-06-19"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Bristol City Council",
+     "local-authority-eng":"BST",
+     "name":"City of Bristol",
+     "start-date":"1905-06-18"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Broadland District Council",
+     "local-authority-eng":"BRO",
+     "name":"Broadland"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Bromsgrove District Council",
+     "local-authority-eng":"BRM",
+     "name":"Bromsgrove"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Broxbourne Borough Council",
+     "local-authority-eng":"BRX",
+     "name":"Broxbourne"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Broxtowe Borough Council",
+     "local-authority-eng":"BRT",
+     "name":"Broxtowe"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Buckinghamshire Council",
+     "local-authority-eng":"BUC",
+     "name":"Buckinghamshire",
+     "start-date":"2020-04-01"
+  },
+  {
+     "end-date":"2020-03-31",
+     "local-authority-type":"CTY",
+     "official-name":"Buckinghamshire County Council",
+     "local-authority-eng":"BKM",
+     "name":"Buckinghamshire",
+     "start-date":"1905-06-19"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Burnley Borough Council",
+     "local-authority-eng":"BUN",
+     "name":"Burnley"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"Bury Metropolitan Borough Council",
+     "local-authority-eng":"BUR",
+     "name":"Bury",
+     "start-date":"1974-04-01"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"Calderdale Metropolitan Borough Council",
+     "local-authority-eng":"CLD",
+     "name":"Calderdale",
+     "start-date":"1974-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Cambridge City Council",
+     "local-authority-eng":"CAB",
+     "name":"Cambridge"
+  },
+  {
+     "local-authority-type":"CTY",
+     "official-name":"Cambridgeshire County Council",
+     "local-authority-eng":"CAM",
+     "name":"Cambridgeshire"
+  },
+  {
+     "local-authority-type":"COMB",
+     "official-name":"Cambridgeshire and Peterborough Combined Authority",
+     "local-authority-eng":"CPCA",
+     "name":"Cambridgeshire and Peterborough Combined Authority",
+     "start-date":"2014-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Cannock Chase District Council",
+     "local-authority-eng":"CAN",
+     "name":"Cannock Chase"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Canterbury City Council",
+     "local-authority-eng":"CAT",
+     "name":"Canterbury"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Carlisle City Council",
+     "local-authority-eng":"CAR",
+     "name":"Carlisle"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Castle Point Borough Council",
+     "local-authority-eng":"CAS",
+     "name":"Castle Point"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Central Bedfordshire Council",
+     "local-authority-eng":"CBF",
+     "name":"Central Bedfordshire",
+     "start-date":"2009-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Charnwood Borough Council",
+     "local-authority-eng":"CHA",
+     "name":"Charnwood"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Chelmsford City Council",
+     "local-authority-eng":"CHL",
+     "name":"Chelmsford"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Cheltenham Borough Council",
+     "local-authority-eng":"CHT",
+     "name":"Cheltenham"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Cherwell District Council",
+     "local-authority-eng":"CHR",
+     "name":"Cherwell"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Cheshire East Council",
+     "local-authority-eng":"CHE",
+     "name":"Cheshire East",
+     "start-date":"2009-04-01"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Cheshire West and Chester Council",
+     "local-authority-eng":"CHW",
+     "name":"Cheshire West and Chester",
+     "start-date":"2009-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Chesterfield Borough Council",
+     "local-authority-eng":"CHS",
+     "name":"Chesterfield"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Chichester District Council",
+     "local-authority-eng":"CHI",
+     "name":"Chichester",
+     "start-date":"1974-04-01"
+  },
+  {
+     "end-date":"2020-03-31",
+     "local-authority-type":"NMD",
+     "official-name":"Chiltern District Council",
+     "local-authority-eng":"CHN",
+     "name":"Chiltern"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Chorley Borough Council",
+     "local-authority-eng":"CHO",
+     "name":"Chorley"
+  },
+  {
+     "end-date":"2019-03-31",
+     "local-authority-type":"NMD",
+     "official-name":"Christchurch Borough Council",
+     "local-authority-eng":"CHC",
+     "name":"Christchurch"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"City of Bradford Metropolitan District Council",
+     "local-authority-eng":"BRD",
+     "name":"Bradford",
+     "start-date":"1974-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"City of Lincoln Council",
+     "local-authority-eng":"LIC",
+     "name":"City of Lincoln"
+  },
+  {
+     "local-authority-type":"CC",
+     "official-name":"City of London Corporation",
+     "local-authority-eng":"LND",
+     "name":"City of London",
+     "start-date":"1905-06-28"
+  },
+  {
+     "local-authority-type":"LBO",
+     "official-name":"City of Westminster",
+     "local-authority-eng":"WSM",
+     "name":"Westminster"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"City of Wolverhampton Council",
+     "local-authority-eng":"WLV",
+     "name":"Wolverhampton",
+     "start-date":"1974-04-01"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"City of York Council",
+     "local-authority-eng":"YOR",
+     "name":"York",
+     "start-date":"1905-06-18"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Colchester Borough Council",
+     "local-authority-eng":"COL",
+     "name":"Colchester"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Copeland Borough Council",
+     "local-authority-eng":"COP",
+     "name":"Copeland"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Corby Borough Council",
+     "local-authority-eng":"COR",
+     "name":"Corby"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Cornwall Council",
+     "local-authority-eng":"CON",
+     "name":"Cornwall",
+     "start-date":"2009-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Cotswold District Council",
+     "local-authority-eng":"COT",
+     "name":"Cotswold"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Council of the Isles of Scilly",
+     "local-authority-eng":"IOS",
+     "name":"Isles of Scilly",
+     "start-date":"1974-04-01"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"Coventry City Council",
+     "local-authority-eng":"COV",
+     "name":"Coventry",
+     "start-date":"1974-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Craven District Council",
+     "local-authority-eng":"CRA",
+     "name":"Craven"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Crawley Borough Council",
+     "local-authority-eng":"CRW",
+     "name":"Crawley",
+     "start-date":"1974-04-01"
+  },
+  {
+     "local-authority-type":"CTY",
+     "official-name":"Cumbria County Council",
+     "local-authority-eng":"CMA",
+     "name":"Cumbria"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Dacorum Borough Council",
+     "local-authority-eng":"DAC",
+     "name":"Dacorum"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Darlington Borough Council",
+     "local-authority-eng":"DAL",
+     "name":"Darlington",
+     "start-date":"1997-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Dartford Borough Council",
+     "local-authority-eng":"DAR",
+     "name":"Dartford"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Daventry District Council",
+     "local-authority-eng":"DAV",
+     "name":"Daventry"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Derby City Council",
+     "local-authority-eng":"DER",
+     "name":"Derby"
+  },
+  {
+     "local-authority-type":"CTY",
+     "official-name":"Derbyshire County Council",
+     "local-authority-eng":"DBY",
+     "name":"Derbyshire"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Derbyshire Dales District Council",
+     "local-authority-eng":"DEB",
+     "name":"Derbyshire Dales"
+  },
+  {
+     "local-authority-type":"CTY",
+     "official-name":"Devon County Council",
+     "local-authority-eng":"DEV",
+     "name":"Devon"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"Doncaster Metropolitan Borough Council",
+     "local-authority-eng":"DNC",
+     "name":"Doncaster",
+     "start-date":"1974-04-01"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Dorset Council",
+     "local-authority-eng":"DST",
+     "name":"Dorset Council",
+     "start-date":"2019-04-01"
+  },
+  {
+     "end-date":"2019-03-31",
+     "local-authority-type":"CTY",
+     "official-name":"Dorset County Council",
+     "local-authority-eng":"DOR",
+     "name":"Dorset"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Dover District Council",
+     "local-authority-eng":"DOV",
+     "name":"Dover"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"Dudley Metropolitan Borough Council",
+     "local-authority-eng":"DUD",
+     "name":"Dudley",
+     "start-date":"1974-04-01"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Durham County Council",
+     "local-authority-eng":"DUR",
+     "name":"County Durham",
+     "start-date":"2009-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"East Cambridgeshire District Council",
+     "local-authority-eng":"ECA",
+     "name":"East Cambridgeshire"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"East Devon District Council",
+     "local-authority-eng":"EDE",
+     "name":"East Devon"
+  },
+  {
+     "end-date":"2019-03-31",
+     "local-authority-type":"NMD",
+     "official-name":"East Dorset District Council",
+     "local-authority-eng":"EDO",
+     "name":"East Dorset"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"East Hampshire District Council",
+     "local-authority-eng":"EHA",
+     "name":"East Hampshire"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"East Hertfordshire District Council",
+     "local-authority-eng":"EHE",
+     "name":"East Hertfordshire"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"East Lindsey District Council",
+     "local-authority-eng":"ELI",
+     "name":"East Lindsey"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"East Northamptonshire Council",
+     "local-authority-eng":"ENO",
+     "name":"East Northamptonshire"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"East Riding of Yorkshire Council",
+     "local-authority-eng":"ERY",
+     "name":"East Riding of Yorkshire",
+     "start-date":"1996-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"East Staffordshire Borough Council",
+     "local-authority-eng":"EST",
+     "name":"East Staffordshire"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"East Suffolk Council",
+     "local-authority-eng":"ESK",
+     "name":"East Suffolk",
+     "start-date":"2019-04-01"
+  },
+  {
+     "local-authority-type":"CTY",
+     "official-name":"East Sussex County Council",
+     "local-authority-eng":"ESX",
+     "name":"East Sussex"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Eastbourne Borough Council",
+     "local-authority-eng":"EAS",
+     "name":"Eastbourne"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Eastleigh Borough Council",
+     "local-authority-eng":"EAT",
+     "name":"Eastleigh"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Eden District Council",
+     "local-authority-eng":"EDN",
+     "name":"Eden"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Elmbridge Borough Council",
+     "local-authority-eng":"ELM",
+     "name":"Elmbridge"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Epping Forest District Council",
+     "local-authority-eng":"EPP",
+     "name":"Epping Forest"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Epsom and Ewell Borough Council",
+     "local-authority-eng":"EPS",
+     "name":"Epsom and Ewell"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Erewash Borough Council",
+     "local-authority-eng":"ERE",
+     "name":"Erewash"
+  },
+  {
+     "local-authority-type":"CTY",
+     "official-name":"Essex County Council",
+     "local-authority-eng":"ESS",
+     "name":"Essex"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Exeter City Council",
+     "local-authority-eng":"EXE",
+     "name":"Exeter"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Fareham Borough Council",
+     "local-authority-eng":"FAR",
+     "name":"Fareham"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Fenland District Council",
+     "local-authority-eng":"FEN",
+     "name":"Fenland"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Folkestone and Hythe Council",
+     "local-authority-eng":"SHE",
+     "name":"Folkestone & Hythe"
+  },
+  {
+     "end-date":"2019-03-31",
+     "local-authority-type":"NMD",
+     "official-name":"Forest Heath District Council",
+     "local-authority-eng":"FOR",
+     "name":"Forest Heath"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Forest of Dean District Council",
+     "local-authority-eng":"FOE",
+     "name":"Forest of Dean"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Fylde Borough Council",
+     "local-authority-eng":"FYL",
+     "name":"Fylde"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"Gateshead Metropolitan Borough Council",
+     "local-authority-eng":"GAT",
+     "name":"Gateshead",
+     "start-date":"1974-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Gedling Borough Council",
+     "local-authority-eng":"GED",
+     "name":"Gedling"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Gloucester City Council",
+     "local-authority-eng":"GLO",
+     "name":"Gloucester"
+  },
+  {
+     "local-authority-type":"CTY",
+     "official-name":"Gloucestershire County Council",
+     "local-authority-eng":"GLS",
+     "name":"Gloucestershire"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Gosport Borough Council",
+     "local-authority-eng":"GOS",
+     "name":"Gosport"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Gravesham Borough Council",
+     "local-authority-eng":"GRA",
+     "name":"Gravesham"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Great Yarmouth Borough Council",
+     "local-authority-eng":"GRY",
+     "name":"Great Yarmouth"
+  },
+  {
+     "local-authority-type":"SRA",
+     "official-name":"Greater London Authority",
+     "local-authority-eng":"GLA",
+     "name":"Greater London",
+     "start-date":"1905-06-22"
+  },
+  {
+     "local-authority-type":"COMB",
+     "official-name":"Greater Manchester Combined Authority",
+     "local-authority-eng":"GMCA",
+     "name":"Greater Manchester Combined Authority",
+     "start-date":"2014-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Guildford Borough Council",
+     "local-authority-eng":"GRT",
+     "name":"Guildford"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Halton Borough Council",
+     "local-authority-eng":"HAL",
+     "name":"Halton",
+     "start-date":"1998-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Hambleton District Council",
+     "local-authority-eng":"HAE",
+     "name":"Hambleton"
+  },
+  {
+     "local-authority-type":"CTY",
+     "official-name":"Hampshire County Council",
+     "local-authority-eng":"HAM",
+     "name":"Hampshire"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Harborough District Council",
+     "local-authority-eng":"HAO",
+     "name":"Harborough"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Harlow District Council",
+     "local-authority-eng":"HAR",
+     "name":"Harlow"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Harrogate Borough Council",
+     "local-authority-eng":"HAG",
+     "name":"Harrogate"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Hart District Council",
+     "local-authority-eng":"HAT",
+     "name":"Hart"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Hartlepool Borough Council",
+     "local-authority-eng":"HPL",
+     "name":"Hartlepool",
+     "start-date":"1905-06-18"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Hastings Borough Council",
+     "local-authority-eng":"HAS",
+     "name":"Hastings"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Havant Borough Council",
+     "local-authority-eng":"HAA",
+     "name":"Havant"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Herefordshire Council",
+     "local-authority-eng":"HEF",
+     "name":"Herefordshire",
+     "start-date":"1998-04-01"
+  },
+  {
+     "local-authority-type":"CTY",
+     "official-name":"Hertfordshire County Council",
+     "local-authority-eng":"HRT",
+     "name":"Hertfordshire"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Hertsmere Borough Council",
+     "local-authority-eng":"HER",
+     "name":"Hertsmere"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"High Peak Borough Council",
+     "local-authority-eng":"HIG",
+     "name":"High Peak"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Hinckley and Bosworth Borough Council",
+     "local-authority-eng":"HIN",
+     "name":"Hinckley and Bosworth"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Horsham District Council",
+     "local-authority-eng":"HOR",
+     "name":"Horsham",
+     "start-date":"1974-04-01"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Hull City Council",
+     "local-authority-eng":"KHL",
+     "name":"Kingston upon Hull",
+     "start-date":"1996-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Huntingdonshire District Council",
+     "local-authority-eng":"HUN",
+     "name":"Huntingdonshire"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Hyndburn Borough Council",
+     "local-authority-eng":"HYN",
+     "name":"Hyndburn"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Ipswich Borough Council",
+     "local-authority-eng":"IPS",
+     "name":"Ipswich"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Isle of Wight Council",
+     "local-authority-eng":"IOW",
+     "name":"Isle of Wight",
+     "start-date":"1905-06-17"
+  },
+  {
+     "local-authority-type":"CTY",
+     "official-name":"Kent County Council",
+     "local-authority-eng":"KEN",
+     "name":"Kent"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Kettering Borough Council",
+     "local-authority-eng":"KET",
+     "name":"Kettering"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"Kirklees Council",
+     "local-authority-eng":"KIR",
+     "name":"Kirklees",
+     "start-date":"1974-04-01"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"Knowsley Metropolitan Borough Council",
+     "local-authority-eng":"KWL",
+     "name":"Knowsley",
+     "start-date":"1974-04-01"
+  },
+  {
+     "local-authority-type":"CTY",
+     "official-name":"Lancashire County Council",
+     "local-authority-eng":"LAN",
+     "name":"Lancashire"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Lancaster City Council",
+     "local-authority-eng":"LAC",
+     "name":"Lancaster"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"Leeds City Council",
+     "local-authority-eng":"LDS",
+     "name":"Leeds",
+     "start-date":"1905-06-08"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Leicester City Council",
+     "local-authority-eng":"LCE",
+     "name":"Leicester",
+     "start-date":"1905-06-19"
+  },
+  {
+     "local-authority-type":"CTY",
+     "official-name":"Leicestershire County Council",
+     "local-authority-eng":"LEC",
+     "name":"Leicestershire"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Lewes District Council",
+     "local-authority-eng":"LEE",
+     "name":"Lewes"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Lichfield District Council",
+     "local-authority-eng":"LIF",
+     "name":"Lichfield"
+  },
+  {
+     "local-authority-type":"CTY",
+     "official-name":"Lincolnshire County Council",
+     "local-authority-eng":"LIN",
+     "name":"Lincolnshire"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"Liverpool City Council",
+     "local-authority-eng":"LIV",
+     "name":"Liverpool",
+     "start-date":"1905-06-08"
+  },
+  {
+     "local-authority-type":"COMB",
+     "official-name":"Liverpool City Region",
+     "local-authority-eng":"LCR",
+     "name":"Liverpool City Region",
+     "start-date":"2014-04-01"
+  },
+  {
+     "local-authority-type":"LBO",
+     "official-name":"London Borough of Barking and Dagenham",
+     "local-authority-eng":"BDG",
+     "name":"Barking and Dagenham"
+  },
+  {
+     "local-authority-type":"LBO",
+     "official-name":"London Borough of Barnet",
+     "local-authority-eng":"BNE",
+     "name":"Barnet"
+  },
+  {
+     "local-authority-type":"LBO",
+     "official-name":"London Borough of Bexley",
+     "local-authority-eng":"BEX",
+     "name":"Bexley"
+  },
+  {
+     "local-authority-type":"LBO",
+     "official-name":"London Borough of Brent",
+     "local-authority-eng":"BEN",
+     "name":"Brent"
+  },
+  {
+     "local-authority-type":"LBO",
+     "official-name":"London Borough of Bromley",
+     "local-authority-eng":"BRY",
+     "name":"Bromley"
+  },
+  {
+     "local-authority-type":"LBO",
+     "official-name":"London Borough of Camden",
+     "local-authority-eng":"CMD",
+     "name":"Camden"
+  },
+  {
+     "local-authority-type":"LBO",
+     "official-name":"London Borough of Croydon",
+     "local-authority-eng":"CRY",
+     "name":"Croydon"
+  },
+  {
+     "local-authority-type":"LBO",
+     "official-name":"London Borough of Ealing",
+     "local-authority-eng":"EAL",
+     "name":"Ealing"
+  },
+  {
+     "local-authority-type":"LBO",
+     "official-name":"London Borough of Enfield",
+     "local-authority-eng":"ENF",
+     "name":"Enfield"
+  },
+  {
+     "local-authority-type":"LBO",
+     "official-name":"London Borough of Hackney",
+     "local-authority-eng":"HCK",
+     "name":"Hackney"
+  },
+  {
+     "local-authority-type":"LBO",
+     "official-name":"London Borough of Hammersmith & Fulham",
+     "local-authority-eng":"HMF",
+     "name":"Hammersmith and Fulham"
+  },
+  {
+     "local-authority-type":"LBO",
+     "official-name":"London Borough of Haringey",
+     "local-authority-eng":"HRY",
+     "name":"Haringey"
+  },
+  {
+     "local-authority-type":"LBO",
+     "official-name":"London Borough of Harrow",
+     "local-authority-eng":"HRW",
+     "name":"Harrow"
+  },
+  {
+     "local-authority-type":"LBO",
+     "official-name":"London Borough of Havering",
+     "local-authority-eng":"HAV",
+     "name":"Havering"
+  },
+  {
+     "local-authority-type":"LBO",
+     "official-name":"London Borough of Hillingdon",
+     "local-authority-eng":"HIL",
+     "name":"Hillingdon"
+  },
+  {
+     "local-authority-type":"LBO",
+     "official-name":"London Borough of Hounslow",
+     "local-authority-eng":"HNS",
+     "name":"Hounslow"
+  },
+  {
+     "local-authority-type":"LBO",
+     "official-name":"London Borough of Islington",
+     "local-authority-eng":"ISL",
+     "name":"Islington"
+  },
+  {
+     "local-authority-type":"LBO",
+     "official-name":"London Borough of Lambeth",
+     "local-authority-eng":"LBH",
+     "name":"Lambeth"
+  },
+  {
+     "local-authority-type":"LBO",
+     "official-name":"London Borough of Lewisham",
+     "local-authority-eng":"LEW",
+     "name":"Lewisham"
+  },
+  {
+     "local-authority-type":"LBO",
+     "official-name":"London Borough of Merton",
+     "local-authority-eng":"MRT",
+     "name":"Merton"
+  },
+  {
+     "local-authority-type":"LBO",
+     "official-name":"London Borough of Newham",
+     "local-authority-eng":"NWM",
+     "name":"Newham"
+  },
+  {
+     "local-authority-type":"LBO",
+     "official-name":"London Borough of Redbridge",
+     "local-authority-eng":"RDB",
+     "name":"Redbridge"
+  },
+  {
+     "local-authority-type":"LBO",
+     "official-name":"London Borough of Richmond upon Thames",
+     "local-authority-eng":"RIC",
+     "name":"Richmond upon Thames"
+  },
+  {
+     "local-authority-type":"LBO",
+     "official-name":"London Borough of Southwark",
+     "local-authority-eng":"SWK",
+     "name":"Southwark"
+  },
+  {
+     "local-authority-type":"LBO",
+     "official-name":"London Borough of Sutton",
+     "local-authority-eng":"STN",
+     "name":"Sutton"
+  },
+  {
+     "local-authority-type":"LBO",
+     "official-name":"London Borough of Tower Hamlets",
+     "local-authority-eng":"TWH",
+     "name":"Tower Hamlets"
+  },
+  {
+     "local-authority-type":"LBO",
+     "official-name":"London Borough of Waltham Forest",
+     "local-authority-eng":"WFT",
+     "name":"Waltham Forest"
+  },
+  {
+     "local-authority-type":"LBO",
+     "official-name":"London Borough of Wandsworth",
+     "local-authority-eng":"WND",
+     "name":"Wandsworth"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Luton Borough Council",
+     "local-authority-eng":"LUT",
+     "name":"Luton",
+     "start-date":"1905-06-19"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Maidstone Borough Council",
+     "local-authority-eng":"MAI",
+     "name":"Maidstone"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Maldon District Council",
+     "local-authority-eng":"MAL",
+     "name":"Maldon"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Malvern Hills District Council",
+     "local-authority-eng":"MAV",
+     "name":"Malvern Hills"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"Manchester City Council",
+     "local-authority-eng":"MAN",
+     "name":"Manchester",
+     "start-date":"1974-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Mansfield District Council",
+     "local-authority-eng":"MAS",
+     "name":"Mansfield"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Medway Council",
+     "local-authority-eng":"MDW",
+     "name":"Medway",
+     "start-date":"1998-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Melton Borough Council",
+     "local-authority-eng":"MEL",
+     "name":"Melton"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Mendip District Council",
+     "local-authority-eng":"MEN",
+     "name":"Mendip"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Mid Devon District Council",
+     "local-authority-eng":"MDE",
+     "name":"Mid Devon"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Mid Suffolk District Council",
+     "local-authority-eng":"MSU",
+     "name":"Mid Suffolk"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Mid Sussex District Council",
+     "local-authority-eng":"MSS",
+     "name":"Mid Sussex",
+     "start-date":"1974-04-01"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Middlesbrough Borough Council",
+     "local-authority-eng":"MDB",
+     "name":"Middlesbrough",
+     "start-date":"1905-06-18"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Milton Keynes Council",
+     "local-authority-eng":"MIK",
+     "name":"Milton Keynes",
+     "start-date":"1905-06-19"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Mole Valley District Council",
+     "local-authority-eng":"MOL",
+     "name":"Mole Valley"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"New Forest District Council",
+     "local-authority-eng":"NEW",
+     "name":"New Forest"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Newark and Sherwood District Council",
+     "local-authority-eng":"NEA",
+     "name":"Newark and Sherwood"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"Newcastle City Council",
+     "local-authority-eng":"NET",
+     "name":"Newcastle upon Tyne",
+     "start-date":"1974-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Newcastle-under-Lyme Borough Council",
+     "local-authority-eng":"NEC",
+     "name":"Newcastle-under-Lyme"
+  },
+  {
+     "local-authority-type":"CTY",
+     "official-name":"Norfolk County Council",
+     "local-authority-eng":"NFK",
+     "name":"Norfolk"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"North Devon District Council",
+     "local-authority-eng":"NDE",
+     "name":"North Devon"
+  },
+  {
+     "end-date":"2019-03-31",
+     "local-authority-type":"NMD",
+     "official-name":"North Dorset District Council",
+     "local-authority-eng":"NDO",
+     "name":"North Dorset"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"North East Derbyshire District Council",
+     "local-authority-eng":"NED",
+     "name":"North East Derbyshire"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"North East Lincolnshire Council",
+     "local-authority-eng":"NEL",
+     "name":"North East Lincolnshire",
+     "start-date":"1996-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"North Hertfordshire District Council",
+     "local-authority-eng":"NHE",
+     "name":"North Hertfordshire"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"North Kesteven District Council",
+     "local-authority-eng":"NKE",
+     "name":"North Kesteven"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"North Lincolnshire Council",
+     "local-authority-eng":"NLN",
+     "name":"North Lincolnshire",
+     "start-date":"1996-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"North Norfolk District Council",
+     "local-authority-eng":"NNO",
+     "name":"North Norfolk"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"North Somerset  Council",
+     "local-authority-eng":"NSM",
+     "name":"North Somerset",
+     "start-date":"1996-04-01"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"North Tyneside Council",
+     "local-authority-eng":"NTY",
+     "name":"North Tyneside",
+     "start-date":"1974-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"North Warwickshire Borough Council",
+     "local-authority-eng":"NWA",
+     "name":"North Warwickshire"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"North West Leicestershire District Council",
+     "local-authority-eng":"NWL",
+     "name":"North West Leicestershire"
+  },
+  {
+     "local-authority-type":"CTY",
+     "official-name":"North Yorkshire County Council",
+     "local-authority-eng":"NYK",
+     "name":"North Yorkshire"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Northampton Borough Council",
+     "local-authority-eng":"NOR",
+     "name":"Northampton"
+  },
+  {
+     "local-authority-type":"CTY",
+     "official-name":"Northamptonshire County Council",
+     "local-authority-eng":"NTH",
+     "name":"Northamptonshire"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Northumberland County Council",
+     "local-authority-eng":"NBL",
+     "name":"Northumberland",
+     "start-date":"2009-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Norwich City Council",
+     "local-authority-eng":"NOW",
+     "name":"Norwich"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Nottingham City Council",
+     "local-authority-eng":"NGM",
+     "name":"Nottingham",
+     "start-date":"1905-06-20"
+  },
+  {
+     "local-authority-type":"CTY",
+     "official-name":"Nottinghamshire County Council",
+     "local-authority-eng":"NTT",
+     "name":"Nottinghamshire"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Nuneaton and Bedworth Borough Council",
+     "local-authority-eng":"NUN",
+     "name":"Nuneaton and Bedworth"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Oadby and Wigston Borough Council",
+     "local-authority-eng":"OAD",
+     "name":"Oadby and Wigston"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"Oldham Metropolitan Borough Council",
+     "local-authority-eng":"OLD",
+     "name":"Oldham",
+     "start-date":"1905-06-07"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Oxford City Council",
+     "local-authority-eng":"OXO",
+     "name":"Oxford"
+  },
+  {
+     "local-authority-type":"CTY",
+     "official-name":"Oxfordshire County Council",
+     "local-authority-eng":"OXF",
+     "name":"Oxfordshire"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Pendle Borough Council",
+     "local-authority-eng":"PEN",
+     "name":"Pendle"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Peterborough City Council",
+     "local-authority-eng":"PTE",
+     "name":"Peterborough",
+     "start-date":"1905-06-20"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Plymouth City Council",
+     "local-authority-eng":"PLY",
+     "name":"Plymouth",
+     "start-date":"1998-04-01"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Portsmouth City Council",
+     "local-authority-eng":"POR",
+     "name":"Portsmouth",
+     "start-date":"1905-06-20"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Preston City Council",
+     "local-authority-eng":"PRE",
+     "name":"Preston"
+  },
+  {
+     "end-date":"2019-03-31",
+     "local-authority-type":"NMD",
+     "official-name":"Purbeck District Council",
+     "local-authority-eng":"PUR",
+     "name":"Purbeck"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Reading Borough Council",
+     "local-authority-eng":"RDG",
+     "name":"Reading",
+     "start-date":"1905-05-27"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Redcar and Cleveland Borough Council",
+     "local-authority-eng":"RCC",
+     "name":"Redcar and Cleveland",
+     "start-date":"1996-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Redditch Borough Council",
+     "local-authority-eng":"RED",
+     "name":"Redditch"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Reigate and Banstead Borough Council",
+     "local-authority-eng":"REI",
+     "name":"Reigate and Banstead"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Ribble Valley Borough Council",
+     "local-authority-eng":"RIB",
+     "name":"Ribble Valley"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Richmondshire District Council",
+     "local-authority-eng":"RIH",
+     "name":"Richmondshire"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"Rochdale Metropolitan Borough Council",
+     "local-authority-eng":"RCH",
+     "name":"Rochdale",
+     "start-date":"1905-05-27"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Rochford District Council",
+     "local-authority-eng":"ROC",
+     "name":"Rochford"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Rossendale Borough Council",
+     "local-authority-eng":"ROS",
+     "name":"Rossendale"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Rother District Council",
+     "local-authority-eng":"ROH",
+     "name":"Rother"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"Rotherham Metropolitan Borough Council",
+     "local-authority-eng":"ROT",
+     "name":"Rotherham",
+     "start-date":"1905-05-27"
+  },
+  {
+     "local-authority-type":"LBO",
+     "official-name":"Royal Borough of Greenwich",
+     "local-authority-eng":"GRE",
+     "name":"Greenwich"
+  },
+  {
+     "local-authority-type":"LBO",
+     "official-name":"Royal Borough of Kensington and Chelsea",
+     "local-authority-eng":"KEC",
+     "name":"Kensington and Chelsea"
+  },
+  {
+     "local-authority-type":"LBO",
+     "official-name":"Royal Borough of Kingston upon Thames",
+     "local-authority-eng":"KTT",
+     "name":"Kingston upon Thames"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Royal Borough of Windsor and Maidenhead",
+     "local-authority-eng":"WNM",
+     "name":"Windsor and Maidenhead",
+     "start-date":"1905-06-20"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Rugby Borough Council",
+     "local-authority-eng":"RUG",
+     "name":"Rugby"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Runnymede Borough Council",
+     "local-authority-eng":"RUN",
+     "name":"Runnymede"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Rushcliffe Borough Council",
+     "local-authority-eng":"RUS",
+     "name":"Rushcliffe"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Rushmoor Borough Council",
+     "local-authority-eng":"RUH",
+     "name":"Rushmoor"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Rutland County Council",
+     "local-authority-eng":"RUT",
+     "name":"Rutland",
+     "start-date":"1997-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Ryedale District Council",
+     "local-authority-eng":"RYE",
+     "name":"Ryedale"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"Salford City Council",
+     "local-authority-eng":"SLF",
+     "name":"Salford",
+     "start-date":"1905-05-27"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"Sandwell Metropolitan Borough Council",
+     "local-authority-eng":"SAW",
+     "name":"Sandwell",
+     "start-date":"1905-06-07"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Scarborough Borough Council",
+     "local-authority-eng":"SCE",
+     "name":"Scarborough"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Sedgemoor District Council",
+     "local-authority-eng":"SEG",
+     "name":"Sedgemoor"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"Sefton Metropolitan Borough Council",
+     "local-authority-eng":"SFT",
+     "name":"Sefton",
+     "start-date":"1905-06-08"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Selby District Council",
+     "local-authority-eng":"SEL",
+     "name":"Selby"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Sevenoaks District Council",
+     "local-authority-eng":"SEV",
+     "name":"Sevenoaks"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"Sheffield City Council",
+     "local-authority-eng":"SHF",
+     "name":"Sheffield",
+     "start-date":"1905-06-08"
+  },
+  {
+     "local-authority-type":"COMB",
+     "official-name":"Sheffield City Region",
+     "local-authority-eng":"SCR",
+     "name":"Sheffield City Region",
+     "start-date":"2014-04-01"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Shropshire Council",
+     "local-authority-eng":"SHR",
+     "name":"Shropshire",
+     "start-date":"2009-04-01"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Slough Borough Council",
+     "local-authority-eng":"SLG",
+     "name":"Slough",
+     "start-date":"1998-04-01"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"Solihull Metropolitan Borough Council",
+     "local-authority-eng":"SOL",
+     "name":"Solihull",
+     "start-date":"1905-05-27"
+  },
+  {
+     "local-authority-type":"CTY",
+     "official-name":"Somerset County Council",
+     "local-authority-eng":"SOM",
+     "name":"Somerset"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Somerset West and Taunton Council",
+     "local-authority-eng":"SWT",
+     "name":"Somerset West and Taunton",
+     "start-date":"2019-04-01"
+  },
+  {
+     "end-date":"2020-03-31",
+     "local-authority-type":"NMD",
+     "official-name":"South Bucks District Council",
+     "local-authority-eng":"SBU",
+     "name":"South Bucks"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"South Cambridgeshire District Council",
+     "local-authority-eng":"SCA",
+     "name":"South Cambridgeshire"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"South Derbyshire District Council",
+     "local-authority-eng":"SDE",
+     "name":"South Derbyshire"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"South Gloucestershire Council",
+     "local-authority-eng":"SGC",
+     "name":"South Gloucestershire",
+     "start-date":"1905-06-18"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"South Hams District Council",
+     "local-authority-eng":"SHA",
+     "name":"South Hams"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"South Holland District Council",
+     "local-authority-eng":"SHO",
+     "name":"South Holland"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"South Kesteven District Council",
+     "local-authority-eng":"SKE",
+     "name":"South Kesteven"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"South Lakeland District Council",
+     "local-authority-eng":"SLA",
+     "name":"South Lakeland"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"South Norfolk District Council",
+     "local-authority-eng":"SNO",
+     "name":"South Norfolk"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"South Northamptonshire Council",
+     "local-authority-eng":"SNR",
+     "name":"South Northamptonshire"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"South Oxfordshire District Council",
+     "local-authority-eng":"SOX",
+     "name":"South Oxfordshire"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"South Ribble Borough Council",
+     "local-authority-eng":"SRI",
+     "name":"South Ribble"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"South Somerset District Council",
+     "local-authority-eng":"SSO",
+     "name":"South Somerset"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"South Staffordshire Council",
+     "local-authority-eng":"SST",
+     "name":"South Staffordshire"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"South Tyneside Council",
+     "local-authority-eng":"STY",
+     "name":"South Tyneside",
+     "start-date":"1974-04-01"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Southampton City Council",
+     "local-authority-eng":"STH",
+     "name":"Southampton",
+     "start-date":"1905-06-19"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Southend-on-Sea Borough Council",
+     "local-authority-eng":"SOS",
+     "name":"Southend-on-Sea",
+     "start-date":"1905-06-20"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Spelthorne Borough Council",
+     "local-authority-eng":"SPE",
+     "name":"Spelthorne"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"St Albans City and District Council",
+     "local-authority-eng":"SAL",
+     "name":"St Albans"
+  },
+  {
+     "end-date":"2019-03-31",
+     "local-authority-type":"NMD",
+     "official-name":"St Edmundsbury Borough Council",
+     "local-authority-eng":"SED",
+     "name":"St Edmundsbury"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"St Helens Council",
+     "local-authority-eng":"SHN",
+     "name":"St. Helens",
+     "start-date":"1905-06-08"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Stafford Borough Council",
+     "local-authority-eng":"STA",
+     "name":"Stafford"
+  },
+  {
+     "local-authority-type":"CTY",
+     "official-name":"Staffordshire County Council",
+     "local-authority-eng":"STS",
+     "name":"Staffordshire"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Staffordshire Moorlands District Council",
+     "local-authority-eng":"STF",
+     "name":"Staffordshire Moorlands"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Stevenage Borough Council",
+     "local-authority-eng":"STV",
+     "name":"Stevenage"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"Stockport Metropolitan Borough Council",
+     "local-authority-eng":"SKP",
+     "name":"Stockport",
+     "start-date":"1905-05-27"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Stockton-on-Tees Borough Council",
+     "local-authority-eng":"STT",
+     "name":"Stockton-on-Tees",
+     "start-date":"1905-06-18"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Stoke-on-Trent City Council",
+     "local-authority-eng":"STE",
+     "name":"Stoke-on-Trent",
+     "start-date":"1905-06-20"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Stratford-on-Avon District Council",
+     "local-authority-eng":"STR",
+     "name":"Stratford-on-Avon"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Stroud District Council",
+     "local-authority-eng":"STO",
+     "name":"Stroud"
+  },
+  {
+     "end-date":"2019-03-31",
+     "local-authority-type":"NMD",
+     "official-name":"Suffolk Coastal District Council",
+     "local-authority-eng":"SUF",
+     "name":"Suffolk Coastal"
+  },
+  {
+     "local-authority-type":"CTY",
+     "official-name":"Suffolk County Council",
+     "local-authority-eng":"SFK",
+     "name":"Suffolk"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"Sunderland City Council",
+     "local-authority-eng":"SND",
+     "name":"Sunderland",
+     "start-date":"1905-05-27"
+  },
+  {
+     "local-authority-type":"CTY",
+     "official-name":"Surrey County Council",
+     "local-authority-eng":"SRY",
+     "name":"Surrey"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Surrey Heath Borough Council",
+     "local-authority-eng":"SUR",
+     "name":"Surrey Heath"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Swale Borough Council",
+     "local-authority-eng":"SWL",
+     "name":"Swale"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Swindon Borough Council",
+     "local-authority-eng":"SWD",
+     "name":"Swindon",
+     "start-date":"1905-06-20"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"Tameside Metropolitan Borough Council",
+     "local-authority-eng":"TAM",
+     "name":"Tameside",
+     "start-date":"1974-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Tamworth Borough Council",
+     "local-authority-eng":"TAW",
+     "name":"Tamworth"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Tandridge District Council",
+     "local-authority-eng":"TAN",
+     "name":"Tandridge"
+  },
+  {
+     "end-date":"2019-03-31",
+     "local-authority-type":"NMD",
+     "official-name":"Taunton Deane Borough Council",
+     "local-authority-eng":"TAU",
+     "name":"Taunton Deane"
+  },
+  {
+     "local-authority-type":"COMB",
+     "official-name":"Tees Valley Combined Authority",
+     "local-authority-eng":"TVCA",
+     "name":"Tees Valley Combined Authority",
+     "start-date":"2014-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Teignbridge District Council",
+     "local-authority-eng":"TEI",
+     "name":"Teignbridge"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Telford & Wrekin Council",
+     "local-authority-eng":"TFW",
+     "name":"Telford and Wrekin",
+     "start-date":"1905-06-20"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Tendring District Council",
+     "local-authority-eng":"TEN",
+     "name":"Tendring"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Test Valley Borough Council",
+     "local-authority-eng":"TES",
+     "name":"Test Valley"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Tewkesbury Borough Council",
+     "local-authority-eng":"TEW",
+     "name":"Tewkesbury"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Thanet District Council",
+     "local-authority-eng":"THA",
+     "name":"Thanet"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Three Rivers District Council",
+     "local-authority-eng":"THE",
+     "name":"Three Rivers"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Thurrock Council",
+     "local-authority-eng":"THR",
+     "name":"Thurrock",
+     "start-date":"1905-06-20"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Tonbridge and Malling Borough Council",
+     "local-authority-eng":"TON",
+     "name":"Tonbridge and Malling"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Torbay Council",
+     "local-authority-eng":"TOB",
+     "name":"Torbay",
+     "start-date":"1905-06-20"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Torridge District Council",
+     "local-authority-eng":"TOR",
+     "name":"Torridge"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"Trafford Metropolitan Borough Council",
+     "local-authority-eng":"TRF",
+     "name":"Trafford",
+     "start-date":"1974-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Tunbridge Wells Borough Council",
+     "local-authority-eng":"TUN",
+     "name":"Tunbridge Wells"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Uttlesford District Council",
+     "local-authority-eng":"UTT",
+     "name":"Uttlesford"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Vale of White Horse District Council",
+     "local-authority-eng":"VAL",
+     "name":"Vale of White Horse"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"Wakefield Metropolitan District Council",
+     "local-authority-eng":"WKF",
+     "name":"Wakefield",
+     "start-date":"1974-04-01"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"Walsall Metropolitan Borough Council",
+     "local-authority-eng":"WLL",
+     "name":"Walsall",
+     "start-date":"1974-04-01"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Warrington Borough Council",
+     "local-authority-eng":"WRT",
+     "name":"Warrington",
+     "start-date":"1905-06-20"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Warwick District Council",
+     "local-authority-eng":"WAW",
+     "name":"Warwick"
+  },
+  {
+     "local-authority-type":"CTY",
+     "official-name":"Warwickshire County Council",
+     "local-authority-eng":"WAR",
+     "name":"Warwickshire"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Watford Borough Council",
+     "local-authority-eng":"WAT",
+     "name":"Watford"
+  },
+  {
+     "end-date":"2019-03-31",
+     "local-authority-type":"NMD",
+     "official-name":"Waveney District Council",
+     "local-authority-eng":"WAV",
+     "name":"Waveney"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Waverley Borough Council",
+     "local-authority-eng":"WAE",
+     "name":"Waverley"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Wealden District Council",
+     "local-authority-eng":"WEA",
+     "name":"Wealden"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Wellingborough Borough Council",
+     "local-authority-eng":"WEL",
+     "name":"Wellingborough"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Welwyn Hatfield Borough Council",
+     "local-authority-eng":"WEW",
+     "name":"Welwyn Hatfield"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"West Berkshire Council",
+     "local-authority-eng":"WBK",
+     "name":"West Berkshire",
+     "start-date":"1905-06-20"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"West Devon Borough Council",
+     "local-authority-eng":"WDE",
+     "name":"West Devon"
+  },
+  {
+     "end-date":"2019-03-31",
+     "local-authority-type":"NMD",
+     "official-name":"West Dorset District Council",
+     "local-authority-eng":"WDO",
+     "name":"West Dorset"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"West Lancashire Borough Council",
+     "local-authority-eng":"WLA",
+     "name":"West Lancashire"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"West Lindsey District Council",
+     "local-authority-eng":"WLI",
+     "name":"West Lindsey"
+  },
+  {
+     "local-authority-type":"COMB",
+     "official-name":"West Midlands Combined Authority",
+     "local-authority-eng":"WMCA",
+     "name":"West Midlands Combined Authority",
+     "start-date":"2014-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"West Oxfordshire District Council",
+     "local-authority-eng":"WOX",
+     "name":"West Oxfordshire"
+  },
+  {
+     "end-date":"2019-03-31",
+     "local-authority-type":"NMD",
+     "official-name":"West Somerset District Council",
+     "local-authority-eng":"WSO",
+     "name":"West Somerset"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"West Suffolk Council",
+     "local-authority-eng":"WSK",
+     "name":"West Suffolk",
+     "start-date":"2019-04-01"
+  },
+  {
+     "local-authority-type":"CTY",
+     "official-name":"West Sussex County Council",
+     "local-authority-eng":"WSX",
+     "name":"West Sussex"
+  },
+  {
+     "local-authority-type":"COMB",
+     "official-name":"West of England Combined Authority",
+     "local-authority-eng":"WECA",
+     "name":"West of England Combined Authority",
+     "start-date":"2014-04-01"
+  },
+  {
+     "end-date":"2019-03-31",
+     "local-authority-type":"NMD",
+     "official-name":"Weymouth and Portland Borough Council",
+     "local-authority-eng":"WEY",
+     "name":"Weymouth and Portland"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"Wigan Metropolitan Borough Council",
+     "local-authority-eng":"WGN",
+     "name":"Wigan",
+     "start-date":"1974-04-01"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Wiltshire Council",
+     "local-authority-eng":"WIL",
+     "name":"Wiltshire",
+     "start-date":"2009-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Winchester City Council",
+     "local-authority-eng":"WIN",
+     "name":"Winchester"
+  },
+  {
+     "local-authority-type":"MD",
+     "official-name":"Wirral Borough Council",
+     "local-authority-eng":"WRL",
+     "name":"Wirral",
+     "start-date":"1974-04-01"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Woking Borough Council",
+     "local-authority-eng":"WOI",
+     "name":"Woking"
+  },
+  {
+     "local-authority-type":"UA",
+     "official-name":"Wokingham Borough Council",
+     "local-authority-eng":"WOK",
+     "name":"Wokingham",
+     "start-date":"1905-06-20"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Worcester City Council",
+     "local-authority-eng":"WOC",
+     "name":"Worcester"
+  },
+  {
+     "local-authority-type":"CTY",
+     "official-name":"Worcestershire County Council",
+     "local-authority-eng":"WOR",
+     "name":"Worcestershire"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Worthing Borough Council",
+     "local-authority-eng":"WOT",
+     "name":"Worthing",
+     "start-date":"1905-06-25"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Wychavon District Council",
+     "local-authority-eng":"WYC",
+     "name":"Wychavon"
+  },
+  {
+     "end-date":"2020-03-31",
+     "local-authority-type":"NMD",
+     "official-name":"Wycombe District Council",
+     "local-authority-eng":"WYO",
+     "name":"Wycombe"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Wyre Borough Council",
+     "local-authority-eng":"WYR",
+     "name":"Wyre"
+  },
+  {
+     "local-authority-type":"NMD",
+     "official-name":"Wyre Forest District Council",
+     "local-authority-eng":"WYE",
+     "name":"Wyre Forest"
+  }
+]

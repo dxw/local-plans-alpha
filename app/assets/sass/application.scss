@@ -37,8 +37,6 @@ $govuk-assets-path: '/govuk/assets/';
     min-width: 955px;
     justify-content: center;
 
-
-
 }
 
 .center {
@@ -49,4 +47,18 @@ $govuk-assets-path: '/govuk/assets/';
 .govuk-link:visited,
 .app-related-items a {
     color: 	#1d70b8 !important;
+}
+
+.govuk-main-wrapper--l {
+    padding-top: 0px;
+}
+
+.govuk-panel--confirmation {
+    background-color:	#1d70b8 !important;
+    margin-top: 0;
+    > * {
+        color: #ffffff !important;
+        text-align: left;
+    }
+
 }
