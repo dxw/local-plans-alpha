@@ -1,5 +1,6 @@
 <div class="govuk-form-group">
-          <label class="govuk-label govuk-!-font-weight-bold" for="local-authority-select">Search for planning authority</label>
+<form class="form" action="/v2/adur" method="post">
+        <label class="govuk-label govuk-!-font-weight-bold" for="local-authority-select">Search for planning authority</label>
           <span class="govuk-hint">E.g. East Riding of Yorkshire Council</span>
           <select class="govuk-select" name="local-authority-select" id="local-authority-select">
             <option value="">Select local authority</option>
@@ -691,6 +692,9 @@
             <option value="government-organisation:OT547">Yorkshire Dales National Park Authority</option>
             
           </select>
+                <button class="govuk-button" data-module="govuk-button">
+  View local plan
+</button>
         </div>
-        <input type="submit" class="govuk-button button-autocomplete-action button-filter-table" value="View local plans" />
+
       </form>
