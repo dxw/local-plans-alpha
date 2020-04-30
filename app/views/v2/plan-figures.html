@@ -14,7 +14,7 @@
     <div class="govuk-grid-column-two-thirds">
 
       <h1 class="govuk-heading-xl">
-        Local plan key figures
+        Local plan data
       </h1>
 
   {% from "govuk/components/select/macro.njk" import govukSelect %}
@@ -28,12 +28,12 @@
   items: [
     {
       value: "category",
-      text: "Category",
-      selected: true
+      text: "Category"
     },
     {
       value: "housing",
-      text: "Housing"
+      text: "Housing",
+      selected: true
     }
   
   ]
@@ -46,11 +46,11 @@
    <div class="govuk-grid-row govuk-!-margin-bottom-9">
             <div class="govuk-grid-column-one-half">
                 <h2 class="govuk-heading-xl govuk-!-margin-bottom-0">1.12M</h2>
-                <p class="govuk-body-m"><a href="/" class="govuk-link">Housing requirement total</a></p>
+                <p class="govuk-body-m">Housing requirement total</p>
             </div>
 
             <div class="govuk-grid-column-one-half">
-                <h2 class="govuk-heading-xl govuk-!-margin-bottom-0">???</h2>
+                <h2 class="govuk-heading-xl govuk-!-margin-bottom-0">?%</h2>
                 <p class="govuk-body-m">Housing target delivery</p>
             </div>
          </div>
@@ -59,18 +59,21 @@
 
 
    <div class="govuk-grid-column-two-thirds">
-   <h3 class="govuk-heading-s"><a href="/v2/adur">Housing Mix and Tenure to Meet Local Needs</a></h3>
-   <p class="govuk-body govuk-!-margin-bottom-0"><b>Organisation</b><a href="/v2/adur">Adur District Council</a></p>
-   <p class="govuk-body"><b>Last updated</b> entry-date</p>
+   <h3 class="govuk-heading-s"><a href="/v2/policy">Housing Mix and Tenure to Meet Local Needs</a></h3>
+      <p class="govuk-body govuk-!-margin-bottom-0"><b>Unit</b> 20000</p>
 
+   <p class="govuk-body govuk-!-margin-bottom-0"><b>Organisation</b> Adur District Council</p>
+   <p class="govuk-body govuk-!-margin-bottom-0"><b>Last updated</b> entry-date</p>
+<p class="govuk-body"><b>Source document</b> <a href="">Planning policy url</a></p>
 
 
    </div>
 
       <div class="govuk-grid-column-two-thirds">
    <h3 class="govuk-heading-s"><a href="/">Affordable Housing</a></h3>
-   <p class="govuk-body govuk-!-margin-bottom-0"><b>Organisation</b> <a href="/v2/adur">Adur District Council</a></p>
-   <p class="govuk-body"><b>Last updated</b> entry-date</p>
+   <p class="govuk-body govuk-!-margin-bottom-0"><b>Organisation</b> Adur District Council</p>
+   <p class="govuk-body govuk-!-margin-bottom-0"><b>Last updated</b> entry-date</p>
+<p class="govuk-body govuk-!-margin-bottom-0"><b>Source document</b> <a href="">Planning policy url</a></p>
 
 
 
