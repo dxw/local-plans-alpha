@@ -17,15 +17,21 @@
     <div class="govuk-grid-row">
       <div class="govuk-grid-full">
         <div class="govuk-panel govuk-panel--confirmation">
-      <h1 class="govuk-heading-xl">
-        Adur council
+              <p><strong class='govuk-tag govuk-tag--white'>Adopted</strong></p>
+
+      <h1 class="govuk-heading-xl govuk-!-margin-bottom-0">
+        Adur council 
       </h1>
 
 
-      <p>Local plan period  2011-2032</p>
-      <p>Summary content</p>
-      <p>Plan data</p>
-      <p>Download CSV 15.8KB</p>
+
+      <p class="govuk-body-l govuk-!-margin-top-3"><b>Local plan period</b> 2011-2032</p>
+      <p>The Adur Local Plan was adopted at a meeting of Adur Full Council on 14th December 2017. The new Local Plan sets the strategic development and land-use priorities for Adur (outside of the South Downs National Park) up to 2032.</p>
+
+          <h3 class="govuk-heading-m">Download document data</h3>
+          <p>[What to expect in the download]</p>
+
+      <p><a href="/">Download CSV 15.8KB</a></p>
           <div class="govuk-panel__body">
           </div>
         </div>
@@ -41,11 +47,10 @@
 
 <h3 class="govuk-heading-m" >
       <a href="">
-      <p><strong class='govuk-tag'>Adopted</strong></p>
-       Shoreham Harbour JAAP – DPD 
+       Core strategy
       </a>
      </h3>
-
+ <p class="govuk-body-m">Description content</p>
 <details class="govuk-details" data-module="govuk-details">
   <summary class="govuk-details__summary">
     <span class="govuk-details__summary-text">
@@ -103,7 +108,112 @@
   </div>
 </details>
 
-    </div>
+
+
+<h3 class="govuk-heading-m" >
+      <a href="">
+       Site allocation and Development policies
+      </a>
+     </h3>
+
+<details class="govuk-details" data-module="govuk-details">
+  <summary class="govuk-details__summary">
+    <span class="govuk-details__summary-text">
+      Key milestones
+    </span>
+  </summary>
+  <div class="govuk-details__text">
+{% from "govuk/components/table/macro.njk" import govukTable %}
+
+{{ govukTable({
+  firstCellIsHeader: false,
+  head: [
+    {
+      text: "Date"
+    },
+    {
+      text: "Status"
+    }
+  ],
+  rows: [
+    [
+      {
+        text: "23 September 2019"
+      },
+      {
+        html: "<strong class='govuk-tag govuk-tag--blue'>Adopted</strong>"
+      }
+    ],
+    [
+      {
+        text: "13 July 2019"
+      },
+      {
+        html: "<strong class='govuk-tag govuk-tag--pink'>Consultation</strong>"
+      }
+    ]
+  ]
+}) }}
+  </div>
+</details>
+
+
+
+<h3 class="govuk-heading-m" >
+      <a href="">
+       Policies map
+      </a>
+     </h3>
+
+<details class="govuk-details" data-module="govuk-details">
+  <summary class="govuk-details__summary">
+    <span class="govuk-details__summary-text">
+      Key milestones
+    </span>
+  </summary>
+  <div class="govuk-details__text">
+{% from "govuk/components/table/macro.njk" import govukTable %}
+
+{{ govukTable({
+  firstCellIsHeader: false,
+  head: [
+    {
+      text: "Date"
+    },
+    {
+      text: "Status"
+    }
+  ],
+  rows: [
+    [
+      {
+        text: "23 September 2019"
+      },
+      {
+        html: "<strong class='govuk-tag govuk-tag--blue'>Adopted</strong>"
+      }
+    ],
+    [
+      {
+        text: "13 July 2019"
+      },
+      {
+        html: "<strong class='govuk-tag govuk-tag--pink'>Consultation</strong>"
+      }
+    ]
+  ]
+}) }}
+  </div>
+</details>
+
+
+</div>
+
+
+
+
+
+
   </div>
 
 {% endblock %}
