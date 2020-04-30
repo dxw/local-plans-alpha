@@ -38,6 +38,7 @@
 {% endblock %}
 
 {% block header %}
+
   {% include "includes/cookie-banner.html" %}
   {# Set serviceName in config.js. #}
   {{ govukHeader({
@@ -46,6 +47,20 @@
     serviceUrl: "/",
     containerClasses: "govuk-width-container"
   }) }}
+
+      <div class="hero-banner">
+              <div class="govuk-grid-row">
+            <div class="govuk-grid-column-one-half">
+      <div class="center">
+
+        <h1 class="govuk-heading-xl">
+            {% if serviceName %} {{ serviceName }} {% endif %}
+        </h1>
+    <p class="govuk-body-l">Find a local plan and review plan requirement figures</p>
+    </div>
+    </div>
+</div>
+    </div>
 {% endblock %}
 
 {% set mainClasses = mainClasses | default("govuk-main-wrapper--auto-spacing") %}
