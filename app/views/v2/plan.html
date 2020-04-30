@@ -1,0 +1,94 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Question page
+{% endblock %}
+
+{% block beforeContent %}
+  <a class="govuk-back-link" href="/url/of/previous/page">Back</a>
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-xl">
+        All local plans
+      </h1>
+
+   <div class="govuk-grid-row">
+            <div class="govuk-grid-column-one-half">
+                <h2 class="govuk-heading-xl govuk-!-margin-bottom-0">1.12M</h2>
+                <p class="govuk-body-m"><a href="/v1/housing" class="govuk-link">Housing requirement total</a></p>
+            </div>
+
+            <div class="govuk-grid-column-one-half">
+                <h2 class="govuk-heading-xl govuk-!-margin-bottom-0">???</h2>
+                <p class="govuk-body-m">Housing target delivery</p>
+            </div>
+         </div>
+
+<hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
+
+
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-one-third">
+
+{% from "govuk/components/select/macro.njk" import govukSelect %}
+
+{{ govukSelect({
+  id: "sort",
+  name: "sort",
+  label: {
+    text: "Apply filters"
+  },
+  items: [
+    {
+      value: "adopted",
+      text: 'Adopted',
+      selected: true
+    },
+    {
+      value: "emerging",
+      text: 'Emerging'
+    }
+  ]
+}) }}
+
+
+{{ govukSelect({
+  id: "sort",
+  name: "sort",
+  items: [
+    {
+      value: "type",
+      text: 'Single',
+      selected: true
+    },
+        {
+      value: "type",
+      text: 'Joint'
+    }
+  ]
+}) }}
+
+</div>
+
+   <div class="govuk-grid-column-two-thirds">
+   <h3 class="govuk-heading-s"><a href="/adur">Adur Local Plan 2017 (adopted) - Part 1</a></h3>
+   <p class="govuk-body govuk-!-margin-bottom-0"><b>Organisation</b> Adur District Council</p>
+   <p class="govuk-body"><b>Last updated</b> entry-date</p>
+
+
+
+   </div>
+
+</div>
+
+
+    </div>
+  </div>
+
+{% endblock %}
