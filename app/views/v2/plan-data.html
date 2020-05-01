@@ -28,18 +28,56 @@
   items: [
     {
       value: "category",
-      text: "Category"
+      text: "Category",
+      selected: true
+    },
+        {
+      value: "all",
+      text: "All"
     },
     {
       value: "housing",
-      text: "Housing",
-      selected: true
-    }
+      text: "Housing"    
+      }
   
   ]
 }) }}
 
+  {% from "govuk/components/select/macro.njk" import govukSelect %}
 
+{{ govukSelect({
+  id: "sort",
+  name: "sort",
+  label: {
+    text: ""
+  },
+  items: [
+    {
+      value: "status",
+      text: "Status",
+      selected: true
+
+    },
+        {
+      value: "all",
+      text: "All"
+    },
+    {
+      value: "examination",
+      text: "Examination"    
+      },
+        {
+      value: "adopted",
+      text: "Adopted"    
+      }
+  
+  ]
+}) }}
+
+          <h3 class="govuk-heading-m">Download document data</h3>
+          <p>This download includes policy data data for all development planning documents contained in all planning authorities current and emerging local plans.</p>
+
+      <p><a href="/" class="govuk-link">Download CSV 15.8KB</a></p>
 
 <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
 
@@ -47,26 +85,18 @@
 
   <div class="govuk-grid-row">
 
-
    <div class="govuk-grid-column-two-thirds">
-   <h3 class="govuk-heading-s"><a href="/v2/policy">Housing Mix and Tenure to Meet Local Needs</a></h3>
-      <p class="govuk-body govuk-!-margin-bottom-0"><b>Unit</b> 20000</p>
-
-   <p class="govuk-body govuk-!-margin-bottom-0"><b>Organisation</b> Adur District Council</p>
-   <p class="govuk-body govuk-!-margin-bottom-0"><b>Last updated</b> entry-date</p>
-<p class="govuk-body"><b>Source document</b> <a href="">Planning policy url</a></p>
-
+   <h3 class="govuk-heading-s"><a href="/v2/policy-public-realm">Public Realm</a></h3>
+   <p class="govuk-body govuk-!-margin-bottom-0"><b>Organisation</b> Hackney Council</p>
+    <p class="govuk-body govuk-!-margin-bottom-0"><b>Document </b><a href="/v2/hackney-local-plan-2033" class="govuk-link">Local plan 2033</a></p>
+   <p class="govuk-body"><b>Last updated</b> entry-date</p>
 
    </div>
 
-      <div class="govuk-grid-column-two-thirds">
-   <h3 class="govuk-heading-s"><a href="/">Affordable Housing</a></h3>
-   <p class="govuk-body govuk-!-margin-bottom-0"><b>Organisation</b> Adur District Council</p>
-   <p class="govuk-body govuk-!-margin-bottom-0"><b>Last updated</b> entry-date</p>
-<p class="govuk-body govuk-!-margin-bottom-0"><b>Source document</b> <a href="">Planning policy url</a></p>
-
-
-
+      <div class="govuk-grid-column-two-thirds govuk-body govuk-!-margin-top-3">
+   <h3 class="govuk-heading-s"><a href="/v2/policy-housing-supply" class="govuk-link">Housing Supply</a></h3>
+   <p class="govuk-body govuk-!-margin-bottom-0"><b>Organisation</b> Hackney Council</p>
+    <p class="govuk-body govuk-!-margin-bottom-0"><b>Document </b><a href="/v2/hackney-local-plan-2033" class="govuk-link">Local plan 2033</a></p>
    </div>
 
 </div>
