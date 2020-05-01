@@ -52,7 +52,6 @@
       </a>
      </h3>
       <p>Last update</p>
-      <p>See all updates</p>
 
  <p>The new borough-wide local plan 2033, known as LP33, will be the key strategic planning document used to direct and guide development in the borough up to 2033.</p>
 <details class="govuk-details" data-module="govuk-details">
@@ -113,7 +112,83 @@
     ]
   ]
 }) }}
+
+    <p class="govuk-body-s"><a href="/" class="govuk-link">See all updates</a></p>
+
   </div>
+
+</details>
+
+<strong class="govuk-tag govuk-tag--orange">Examination</strong>
+
+<h3 class="govuk-heading-m" >
+      <a href="/v2/hackney-local-plan-2033" class="govuk-link">
+       Policies map
+      </a>
+     </h3>
+      <p>Last update</p>
+<details class="govuk-details" data-module="govuk-details">
+  <summary class="govuk-details__summary">
+    <span class="govuk-details__summary-text">
+      Target milestones
+    </span>
+  </summary>
+  <div class="govuk-details__text">
+{% from "govuk/components/table/macro.njk" import govukTable %}
+
+{{ govukTable({
+  firstCellIsHeader: false,
+  head: [
+    {
+      text: "Start date"
+    },
+    {
+      text: "End date"
+    },
+    {
+      text: "Status"
+    }
+  ],
+  rows: [
+    [
+      {
+        text: "Tuesday 18 June 2019"
+      },
+      {
+        text: "Tuesday 26 June 2019"
+      },
+      {
+        html: "<strong class='govuk-tag govuk-tag--orange'>Examination</strong>"
+      }
+    ],
+    [
+      {
+        text: "23 January 2019"
+      },
+            {
+        text: "-"
+      },
+      {
+        html: "<strong class='govuk-tag govuk-tag--yellow'>Submission</strong>"
+      }
+    ],
+        [
+      {
+        text: "November 2019"
+      },
+            {
+        text: "January 2019"
+      },
+      {
+        html: "<strong class='govuk-tag govuk-tag--grey'>Publication</strong>"
+      }
+    ]
+  ]
+}) }}
+      <p class="govuk-body-s"><a href="/" class="govuk-link">See all updates</a></p>
+
+  </div>
+
 </details>
 
 
@@ -198,7 +273,10 @@ and sets strategic locations for delivering this vision.</p>
     ]
   ]
 }) }}
+    <p class="govuk-body-s"><a href="/" class="govuk-link">See all updates</a></p>
+
   </div>
+
 </details>
 
 
@@ -210,9 +288,7 @@ and sets strategic locations for delivering this vision.</p>
        Site allocation local plan
       </a>
      </h3>
-            <p>Last update</p>
-
-
+    <p>Last update</p>
     <p>The Site Allocation DPD will allocate land for development needs identified in the Local Plan Review such as housing, employment and gypsy and traveller sites and review Settlement Boundaries in line with the Local Plan Review. It covers those parts of the Plan area where local communities have not chosen to identify sites through neighbourhood plans.</p>
 
 <details class="govuk-details" data-module="govuk-details">
@@ -262,6 +338,8 @@ and sets strategic locations for delivering this vision.</p>
     ]
   ]
 }) }}
+      
+      <p class="govuk-body-s"><a href="/" class="govuk-link">See all updates</a></p>
   </div>
 </details>
 
@@ -324,17 +402,12 @@ and sets strategic locations for delivering this vision.</p>
     ]
   ]
 }) }}
+    <p class="govuk-body-s"><a href="/" class="govuk-link">See all updates</a></p>
   </div>
 </details>
 
-
 </div>
 
-
-
-
-
-
-  </div>
+</div>
 
 {% endblock %}
