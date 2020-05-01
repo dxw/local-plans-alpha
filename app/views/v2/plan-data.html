@@ -42,7 +42,7 @@
 
 
   <div class="govuk-grid-row">
-    <div class="govuk-grid-column-two-thirds">
+    <div class="govuk-grid-column-full">
                 <h3 class="govuk-heading-m">Download custom data</h3>
 <p class="govuk-body-l">Filter and download custom date.</p>
 <div class="govuk-grid-row">
@@ -135,6 +135,34 @@
 }) }}
 
   {% from "govuk/components/select/macro.njk" import govukSelect %}
+{{ govukSelect({
+  id: "sort",
+  name: "sort",
+  label: {
+    text: ""
+  },
+  items: [
+    {
+      value: "Type",
+      text: "Type",
+      selected: true
+
+    },
+        {
+      value: "all",
+      text: "All"
+    },
+    {
+      value: "strategic",
+      text: "strategic"    
+      },
+        {
+      value: "non-strategic",
+      text: "Non-strategic"    
+      }
+  
+  ]
+}) }}
 
 {{ govukSelect({
   id: "sort",
@@ -165,6 +193,8 @@
   ]
 }) }}
 
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
 
 <button class="govuk-button" data-module="govuk-button">
   Apply filter
@@ -172,13 +202,14 @@
 <button class="govuk-button" data-module="govuk-button">
   Download results
 </button>
-
+</div>
+</div>
 </div>
 </div>
   <div class="govuk-grid-row">
 
-   <div class="govuk-grid-column-two-thirds">
-       <hr class="govuk-section-break govuk-section-break--l">
+   <div class="govuk-grid-column-full">
+<hr class="govuk-section-break govuk-section-break--l ">
  <p class="govuk-body-l"><b>2 results</b></p>
 
    <h3 class="govuk-heading-s"><a href="/v2/policy-public-realm">Public Realm</a></h3>
