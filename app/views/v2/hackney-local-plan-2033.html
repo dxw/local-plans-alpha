@@ -39,7 +39,65 @@
     .govuk-table__cell--numeric {
         text-align: left;
     }
+
+    .govuk-table {
+    overflow-x: scroll;
+    height: 250px;
+    display: block;
+    width: 1200px;
+    }
+
+    .govuk-form-group {
+      display: inline-block;
+    }
 </style>
+
+{% from "govuk/components/select/macro.njk" import govukSelect %}
+
+{{ govukSelect({
+  id: "sort",
+  name: "sort",
+  classes: "inline",
+  label: {
+    text: "Filter by"
+  },
+  items: [
+    {
+      value: "category",
+      text: 'Category',
+      selected: true
+    },
+    {
+      value: "housing",
+      text: 'Housing'
+    }
+  ]
+}) }}
+
+{{ govukSelect({
+  id: "sort",
+  name: "sort",
+  classes: "inline",
+  label: {
+    text: ""
+  },
+  items: [
+    {
+      value: "type",
+      text: 'Type',
+      selected: true
+    },
+    {
+      value: "strategic",
+      text: 'Strategic'
+    },
+        {
+      value: "non-strategic",
+      text: 'Non-strategic'
+    }
+  ]
+}) }}
+
 
 <table class="govuk-table">
   <caption class="govuk-table__caption"></caption>
