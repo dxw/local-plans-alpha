@@ -1,0 +1,224 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Adur District Council
+{% endblock %}
+
+{% block beforeContent %}
+  <a class="govuk-back-link" href="/v2/organisation">Back</a>
+{% endblock %}
+
+{% block content %}
+
+
+
+<div class="govuk-width-container">
+  <main class="govuk-main-wrapper govuk-main-wrapper--l" id="main-content" role="main">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-full">
+        <div class="govuk-panel govuk-panel--confirmation">
+              {# <p><strong class='govuk-tag govuk-tag--white'>Adopted</strong></p> #}
+
+      <h1 class="govuk-heading-xl govuk-!-margin-bottom-0">
+        Adur District Council 
+      </h1>
+
+
+      <p class="govuk-body-l govuk-!-margin-top-3"><b>Local plan period</b> 2011-2032</p>
+      <p>The Adur Local Plan was adopted at a meeting of Adur Full Council on 14th December 2017. The new Local Plan sets the strategic development and land-use priorities for Adur (outside of the South Downs National Park) up to 2032.</p>
+
+          <h3 class="govuk-heading-m">Download document data</h3>
+          <p>[What to expect in the download]</p>
+
+      <p><a href="/">Download CSV 15.8KB</a></p>
+          <div class="govuk-panel__body">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+</div>
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+
+<h3 class="govuk-heading-m" >
+      <a href="">
+       Core strategy
+      </a>
+     </h3>
+      <p>Last update</p>
+
+ <p>Description content</p>
+<details class="govuk-details" data-module="govuk-details">
+  <summary class="govuk-details__summary">
+    <span class="govuk-details__summary-text">
+      Key milestones
+    </span>
+  </summary>
+  <div class="govuk-details__text">
+{% from "govuk/components/table/macro.njk" import govukTable %}
+
+{{ govukTable({
+  firstCellIsHeader: false,
+  head: [
+    {
+      text: "Date"
+    },
+    {
+      text: "Status"
+    }
+  ],
+  rows: [
+    [
+      {
+        text: "11 January 2019"
+      },
+      {
+        html: "<strong class='govuk-tag govuk-tag--blue'>Adopted</strong>"
+      }
+    ],
+    [
+      {
+        text: "5 October 2018"
+      },
+      {
+        html: "<strong class='govuk-tag govuk-tag--green'>Inspector's report</strong>"
+      }
+    ],
+    [
+      {
+        text: "13 July 2018"
+      },
+      {
+        html: "<strong class='govuk-tag govuk-tag--orange'>Examination</strong>"
+      }
+    ],
+    [
+      {
+        text: "9 March 2018"
+      },
+      {
+        html: "<strong class='govuk-tag govuk-tag--yellow'>Submission</strong>"
+      }
+    ]
+  ]
+}) }}
+  </div>
+</details>
+
+
+
+<h3 class="govuk-heading-m" >
+      <a href="">
+       Site allocation and Development policies
+      </a>
+     </h3>
+            <p>Last update</p>
+
+
+    <p>The Site Allocation DPD will allocate land for development needs identified in the Local Plan Review such as housing, employment and gypsy and traveller sites and review Settlement Boundaries in line with the Local Plan Review. It covers those parts of the Plan area where local communities have not chosen to identify sites through neighbourhood plans.</p>
+
+<details class="govuk-details" data-module="govuk-details">
+  <summary class="govuk-details__summary">
+    <span class="govuk-details__summary-text">
+      Key milestones
+    </span>
+  </summary>
+  <div class="govuk-details__text">
+{% from "govuk/components/table/macro.njk" import govukTable %}
+
+{{ govukTable({
+  firstCellIsHeader: false,
+  head: [
+    {
+      text: "Date"
+    },
+    {
+      text: "Status"
+    }
+  ],
+  rows: [
+    [
+      {
+        text: "23 September 2019"
+      },
+      {
+        html: "<strong class='govuk-tag govuk-tag--blue'>Adopted</strong>"
+      }
+    ],
+    [
+      {
+        text: "13 July 2019"
+      },
+      {
+        html: "<strong class='govuk-tag govuk-tag--pink'>Consultation</strong>"
+      }
+    ]
+  ]
+}) }}
+  </div>
+</details>
+
+
+
+<h3 class="govuk-heading-m" >
+      <a href="">
+       Policies map
+      </a>
+     </h3>
+
+<details class="govuk-details" data-module="govuk-details">
+  <summary class="govuk-details__summary">
+    <span class="govuk-details__summary-text">
+      Key milestones
+    </span>
+  </summary>
+  <div class="govuk-details__text">
+{% from "govuk/components/table/macro.njk" import govukTable %}
+
+{{ govukTable({
+  firstCellIsHeader: false,
+  head: [
+    {
+      text: "Date"
+    },
+    {
+      text: "Status"
+    }
+  ],
+  rows: [
+    [
+      {
+        text: "23 September 2019"
+      },
+      {
+        html: "<strong class='govuk-tag govuk-tag--blue'>Adopted</strong>"
+      }
+    ],
+    [
+      {
+        text: "13 July 2019"
+      },
+      {
+        html: "<strong class='govuk-tag govuk-tag--pink'>Consultation</strong>"
+      }
+    ]
+  ]
+}) }}
+  </div>
+</details>
+
+
+</div>
+
+
+
+
+
+
+  </div>
+
+{% endblock %}
