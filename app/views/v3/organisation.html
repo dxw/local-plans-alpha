@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Planning authorities
+{% endblock %}
+
+{% block beforeContent %}
+  <a class="govuk-back-link" href="/v2/">Back</a>
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-xl">
+        Planning authorities
+      </h1>
+
+<div class="govuk-form-group">
+
+<form class="form" action="/v2/hackney" method="post">
+        <label class="govuk-label govuk-!-font-weight-bold" for="local-authority-select">Search for planning authority</label>
+          <span class="govuk-hint">E.g. East Riding of Yorkshire Council</span>
+          <select class="govuk-select" name="local-authority-select" id="local-authority-select">
+            <option value="">Select local authority</option>
+            {% for council in councils %}
+              <option value="local-authority-eng:{{council["local-authority-eng"]}}">{{ council["official-name"] }}</option>
+            {% endfor %}
+          </select>
+
+        </div>
+<button class="govuk-button" data-module="govuk-button">
+  View local plan
+</button>
+      </form>
+
+
+    </div>
+  </div>
+
+{% endblock %}
