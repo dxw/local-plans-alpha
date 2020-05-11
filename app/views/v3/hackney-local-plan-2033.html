@@ -9,31 +9,23 @@
 {% endblock %}
 
 {% block content %}
-
-  <div class="govuk-grid-row">
-    <div class="govuk-grid-column-two-thirds">
-<span class="govuk-caption-xl">Hackney Council</span>
-
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+  <span class="govuk-caption-xl">Hackney Council</span>
       <h1 class="govuk-heading-xl">
         Local plan 2033
       </h1>
-
       <p>The new borough-wide local plan 2033, known as LP33, will be the key strategic planning document used to direct and guide development in the borough up to 2033.</p>
       
       <h4 class="govuk-heading-s">Document url</h4>
       <p><a href="https://drive.google.com/file/d/1SZVBQcfOB7cMW7AMel7NqOJ3cOYpnu60/view" class="govuk-link">SD01 – proposed submission local plan 2033</a></p>
 
-
-
     </div>
 
     <div class="govuk-grid-row">
     <div class="govuk-grid-column-full govuk-!-margin-left-3">
-    <hr class="govuk-section-break govuk-section-break--xl">
+    <hr class="govuk-section-break govuk-section-break--l">
 
-      <h3 class="govuk-heading-m">Policies data</h3>
-
-      <p class="govuk-body-s"><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSTheyrwpOHm7VXxot2Z1Et4qnRTUBBSlG7TasKH9sjBwnsXQt_nqt21bJFEJnwukmuZ1ZaOVMO1UOE/pubhtml" class="govuk-link">Download policies</a> CSV, 19.5 KB</p>
 <style>
     .govuk-table__header--numeric, 
     .govuk-table__cell--numeric {
@@ -52,6 +44,92 @@
     }
 </style>
 
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+    <h3 class="govuk-heading-m">Timetable</h3>
+     <p class="govuk-body-s">Last updated: ???<p>
+      <p class="govuk-body-s"><a href="" class="govuk-link">See all updates</a></p>
+
+  {% from "govuk/components/table/macro.njk" import govukTable %}
+
+{{ govukTable({
+  firstCellIsHeader: false,
+  head: [
+    {
+      text: "Start date",
+      classes: 'govuk-!-width-one-quarter'
+
+    },
+    {
+      text: "End date",     
+      classes: 'govuk-!-width-one-quarter'
+
+    },
+    {
+      text: "Status",
+      classes: 'govuk-!-width-one-quarter'
+
+    }
+  ],
+  rows: [
+        [
+      {
+        text: "-"
+      },
+      {
+        text: "-"
+      },
+      {
+        html: "<strong class='govuk-tag govuk-tag--blue'>Adoption</strong>"
+      }
+    ],
+    [
+      {
+        text: "Tuesday 18 June 2019"
+      },
+      {
+        text: "Tuesday 26 June 2019"
+      },
+      {
+        html: "<strong class='govuk-tag govuk-tag--orange'>Examination</strong>"
+      }
+    ],
+    [
+      {
+        text: "23 January 2019"
+      },
+            {
+        text: "-"
+      },
+      {
+        html: "<strong class='govuk-tag govuk-tag--yellow'>Submission</strong>"
+      }
+    ],
+        [
+      {
+        text: "November 2019"
+      },
+            {
+        text: "January 2019"
+      },
+      {
+        html: "<strong class='govuk-tag govuk-tag--grey'>Publication</strong>"
+      }
+    ]
+  ]
+}) }}
+
+
+  </div>
+
+  </div>
+
+    <hr class="govuk-section-break govuk-section-break--l">
+
+      <h3 class="govuk-heading-m">Policies data</h3>
+
+      <p class="govuk-body-s"><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSTheyrwpOHm7VXxot2Z1Et4qnRTUBBSlG7TasKH9sjBwnsXQt_nqt21bJFEJnwukmuZ1ZaOVMO1UOE/pubhtml" class="govuk-link">Download policies</a> CSV, 19.5 KB</p>
 {% from "govuk/components/select/macro.njk" import govukSelect %}
 
 {{ govukSelect({
@@ -98,13 +176,14 @@
   ]
 }) }}
 
-
+    <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
 <table class="govuk-table">
   <caption class="govuk-table__caption"></caption>
   <thead class="govuk-table__head">
     <tr class="govuk-table__row">
       <th scope="col" class="govuk-table__header">ID</th>
-      <th scope="col" class="govuk-table__header govuk-table__header--numeric">Name</th>
+      <th scope="col" class="govuk-table__header govuk-table__header--numeric ">Name</th>
       <th scope="col" class="govuk-table__header govuk-table__header--numeric">Category</th>
       <th scope="col" class="govuk-table__header govuk-table__header--numeric">Status</th>
       <th scope="col" class="govuk-table__header govuk-table__header--numeric">Unit</th>
@@ -170,6 +249,7 @@
   </tbody>
 </table>
 
+
       <h3 class="govuk-heading-s">Additional information</h3>
     <details class="govuk-details" data-module="govuk-details">
     <summary class="govuk-details__summary">
@@ -181,86 +261,10 @@
         <p><b>Categories</b> Housing [HO], Employment [EM], Transport infrastructure [TI], conservation and enhancement of the built environment [CB]</p>
     </div>
   </details>
+</div>
+</div>
 
-    <hr class="govuk-section-break govuk-section-break--xl">
-
-        <h3 class="govuk-heading-m">Timetable</h3>
-
-
-  {% from "govuk/components/table/macro.njk" import govukTable %}
-
-{{ govukTable({
-  firstCellIsHeader: false,
-  head: [
-    {
-      text: "Start date"
-    },
-    {
-      text: "End date"
-    },
-    {
-      text: "Status"
-    }
-  ],
-  rows: [
-        [
-      {
-        text: "-"
-      },
-      {
-        text: "-"
-      },
-      {
-        html: "<strong class='govuk-tag govuk-tag--blue'>Adoption</strong>"
-      }
-    ],
-    [
-      {
-        text: "Tuesday 18 June 2019"
-      },
-      {
-        text: "Tuesday 26 June 2019"
-      },
-      {
-        html: "<strong class='govuk-tag govuk-tag--orange'>Examination</strong>"
-      }
-    ],
-    [
-      {
-        text: "23 January 2019"
-      },
-            {
-        text: "-"
-      },
-      {
-        html: "<strong class='govuk-tag govuk-tag--yellow'>Submission</strong>"
-      }
-    ],
-        [
-      {
-        text: "November 2019"
-      },
-            {
-        text: "January 2019"
-      },
-      {
-        html: "<strong class='govuk-tag govuk-tag--grey'>Publication</strong>"
-      }
-    ]
-  ]
-}) }}
-
-
-  </div>
-
-</details>
-  </div>
-
-
-  </div>
-
-</details>
-
+    
 </div>
 </div>
 {% endblock %}
