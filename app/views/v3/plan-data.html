@@ -35,17 +35,65 @@
     </div>
 </div>
 
+</div>
+
+
+
+    <div class="govuk-grid-column-full">
+
+    <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+          <h3 class="govuk-heading-l govuk-!-margin-top-9">Download the data</h3>
+
+    <div class="govuk-grid-row">
+
+    <div class="govuk-grid-column-one-half">
+
+    <h3 class="govuk-heading-m">Development plan document data</h3>
+          <p>This download includes timetable information relating to all development plan documents in planning authorities local development scheme.</p>
+
+      <p><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTwBvGTiQP05bLZ2Livf2Ew8CkAWkAXOfiZygZC3kZ60l2IrqCKEJFPD8oiXmb4AHJ6AV5QkcSAav2O/pubhtml" class="govuk-link">Download CSV 11.7KB</a></p>
+
+<style>
+
+    .govuk-form-group {
+      display: inline-block;
+    }
+
+</style>
+
+</div>
+
+   <div class="govuk-grid-row">
+    <div class="govuk-grid-column-one-half">
+       <div class="govuk-grid-row">
+
+          <h3 class="govuk-heading-m">Policy data</h3>
+          <p>This download includes policy data data for all development planning documents contained in all planning authorities current and emerging local plans.</p>
+
+      <p><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSTheyrwpOHm7VXxot2Z1Et4qnRTUBBSlG7TasKH9sjBwnsXQt_nqt21bJFEJnwukmuZ1ZaOVMO1UOE/pubhtml" class="govuk-link">Download CSV 15.8KB</a></p>
+
+
+</div>
+    </div>
+  </div>
+  </div>
+
+    <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
+          <h3 class="govuk-heading-l govuk-!-margin-top-9">Search the data</h3>
+
+      <div class="govuk-grid-row">
+
+    <div class="govuk-grid-column-one-third">
+
+
 
 <div class= "govuk-grid-row">
-    <div class="govuk-grid-column-two-thirds">
+    <div class="govuk-grid-column-full">
 
 
 
-    <h3 class="govuk-heading-l govuk-!-margin-top-9">Search the data</h3>
-
-    
-
-        <h3 class="govuk-heading-s">Plan status</h3>
+      <h3 class="govuk-heading-s">Plan status</h3>
 
 
 {{ govukSelect({
@@ -61,6 +109,10 @@
       selected: true
 
     },
+       {
+      value: "out-of-date",
+      text: "Out of date"    
+      },
     {
       value: "preparation",
       text: "Preparation"    
@@ -85,30 +137,59 @@
   ]
 }) }}
 </div>
-</div>
-
-  
 
 
-  <div class="govuk-grid-row">
     <div class="govuk-grid-column-full">
 
-<button class="govuk-button" data-module="govuk-button">
+
+
+      <h3 class="govuk-heading-s">Category</h3>
+
+
+{{ govukSelect({
+  id: "sort",
+  name: "sort",
+  label: {
+    text: ""
+  },
+  items: [
+    {
+      value: "category",
+      text: "Category",
+      selected: true
+
+    },
+    {
+      value: "housing",
+      text: "Housing"    
+      },
+    {
+      value: "transport",
+      text: "Transport"    
+      }
+  ]
+}) }}
+</div>
+
+
+</div>
+
+ 
+
+<button class="govuk-button" data-module="govuk-button" >
   Apply filter
 </button>
-<button class="govuk-button" data-module="govuk-button">
-  Download results
-</button>
+
+
+      <p><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTwBvGTiQP05bLZ2Livf2Ew8CkAWkAXOfiZygZC3kZ60l2IrqCKEJFPD8oiXmb4AHJ6AV5QkcSAav2O/pubhtml" class="govuk-link">Download results CSV 11.7KB</a></p>
+
 </div>
-</div>
-</div>
-</div>
+
       
 
-<div class="govuk-grid-row">
-  <div class="govuk-grid-column-full">
+  <div class="govuk-grid-column-two-thirds">
 
-        <p class="govuk-!-margin-top-5 govuk-!-margin-bottom-9">There are <b>200 adopted plans</b> across <b>150 local planning authorities</b>.</p>
+        <p class="govuk-!-margin-bottom-9">There are <b>200 adopted plans</b> across <b>150 local planning authorities</b>.</p>
 
 {% from "govuk/components/table/macro.njk" import govukTable %}
 
@@ -174,39 +255,37 @@
   </div>
 </div>
 
+</div>
+
+
+
+    <div class="govuk-grid-column-full">
+
 <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
 
+      <h3 class="govuk-heading-l govuk-!-margin-top-9">Local planning authorities</h3>
 
-  <div class="govuk-grid-row">
-    <div class="govuk-grid-column-full">
-    <h3 class="govuk-heading-l">Download national dataset</h3>
+<div class="govuk-form-group">
 
-    <h3 class="govuk-heading-s">Development plan document data</h3>
-          <p>This download includes timetable information relating to all development plan documents in planning authorities local development scheme.</p>
+<form class="form" action="/v3/hackney" method="post">
+        <label class="govuk-label govuk-!-font-weight-bold" for="local-authority-select">Search for planning authority</label>
+          <span class="govuk-hint">E.g. East Riding of Yorkshire Council</span>
+          <select class="govuk-select" name="local-authority-select" id="local-authority-select">
+            <option value="">Select local authority</option>
+            {% for council in councils %}
+              <option value="local-authority-eng:{{council["local-authority-eng"]}}">{{ council["official-name"] }}</option>
+            {% endfor %}
+          </select>
+<button class="govuk-button govuk-!-margin-top-5" style="display:block;" data-module="govuk-button">
+  View local plan
+</button>
+      </form>
 
-      <p><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTwBvGTiQP05bLZ2Livf2Ew8CkAWkAXOfiZygZC3kZ60l2IrqCKEJFPD8oiXmb4AHJ6AV5QkcSAav2O/pubhtml" class="govuk-link">Download CSV 11.7KB</a></p>
-
-<style>
-
-    .govuk-form-group {
-      display: inline-block;
-    }
-
-</style>
-
-    <hr class="govuk-section-break govuk-section-break--l">
-
-
-          <h3 class="govuk-heading-s">Policy data</h3>
-          <p>This download includes policy data data for all development planning documents contained in all planning authorities current and emerging local plans.</p>
-
-      <p><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSTheyrwpOHm7VXxot2Z1Et4qnRTUBBSlG7TasKH9sjBwnsXQt_nqt21bJFEJnwukmuZ1ZaOVMO1UOE/pubhtml" class="govuk-link">Download CSV 15.8KB</a></p>
-
-
-
-
-    </div>
   </div>
+
+
+</div>
+</div>
 
 {% endblock %}
 
@@ -252,5 +331,7 @@ if ($mapElement_uk) {
       la_boundaries.setStyle(govukStyle);
     });
 }
+
+
 </script>
 {% endblock %}
