@@ -8,4 +8,9 @@ router.get("/v2/organisation", function (req, res) {
   res.render('v2/organisation', { councils: councils });
 })
 
+router.get("/v3/organisation", function (req, res) {
+  var councils = require('./data/councils.json')
+  res.render('v3/organisation', { councils: councils });
+})
+
 module.exports = router

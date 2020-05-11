@@ -5,7 +5,7 @@
 {% endblock %}
 
 {% block beforeContent %}
-  <a class="govuk-back-link" href="/v2/">Back</a>
+  <a class="govuk-back-link" href="/v3/">Back</a>
 {% endblock %}
 
 {% block content %}
@@ -17,8 +17,17 @@
         Plan data
       </h1>
 
-                <h3 class="govuk-heading-m">Download timetable data</h3>
-          <p>This download includes timetable information relating to all development management documents in planning authorities local development scheme.</p>
+      
+
+<hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
+
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+    <h3 class="govuk-heading-l">Download plan data</h3>
+
+    <h3 class="govuk-heading-s">Timetable data</h3>
+          <p>This download includes timetable information relating to all development plan documents in planning authorities local development scheme.</p>
 
       <p><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTwBvGTiQP05bLZ2Livf2Ew8CkAWkAXOfiZygZC3kZ60l2IrqCKEJFPD8oiXmb4AHJ6AV5QkcSAav2O/pubhtml" class="govuk-link">Download CSV 11.7KB</a></p>
 
@@ -33,23 +42,18 @@
     <hr class="govuk-section-break govuk-section-break--l">
 
 
-          <h3 class="govuk-heading-m">Download policy data</h3>
+          <h3 class="govuk-heading-s">Policy data</h3>
           <p>This download includes policy data data for all development planning documents contained in all planning authorities current and emerging local plans.</p>
 
       <p><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSTheyrwpOHm7VXxot2Z1Et4qnRTUBBSlG7TasKH9sjBwnsXQt_nqt21bJFEJnwukmuZ1ZaOVMO1UOE/pubhtml" class="govuk-link">Download CSV 15.8KB</a></p>
 
-<hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
-
-
-  <div class="govuk-grid-row">
-    <div class="govuk-grid-column-full">
-                <h3 class="govuk-heading-m">Download custom data</h3>
+                <h3 class="govuk-heading-s">Download custom data</h3>
 <p class="govuk-body-l">Filter and download custom data.</p>
 <div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds govuk-!-margin-bottom-5">
     <div class="govuk-form-group">
 
-<form class="form" action="/v2/hackney" method="post">
+<form class="form" action="/v3/hackney" method="post">
                   <select class="govuk-select" name="local-authority-select" id="local-authority-select">
             <option value="">Select local authority</option>
             {% for council in councils %}
@@ -110,7 +114,11 @@
       },
       {
       value: "transport",
-      text: "Transport infrastructure"    
+      text: "Transport"    
+      },
+            {
+      value: "infrastructure",
+      text: "Infrastructure"    
       },
             {
       value: "waste management",
@@ -210,17 +218,17 @@
 <hr class="govuk-section-break govuk-section-break--l ">
  <p class="govuk-body-l"><b>2 results</b></p>
 
-   <h3 class="govuk-heading-s"><a href="/v2/policy-public-realm" class="govuk-link">Public Realm</a></h3>
-   <p class="govuk-body govuk-!-margin-bottom-0"><b>Organisation</b> <a href="/v2/hackney" class="govuk-link">Hackney Council</a></p>
-    <p class="govuk-body govuk-!-margin-bottom-0"><b>Document </b><a href="/v2/hackney-local-plan-2033" class="govuk-link">Local plan 2033</a></p>
+   <h3 class="govuk-heading-s"><a href="/v3/policy-public-realm" class="govuk-link">Public Realm</a></h3>
+   <p class="govuk-body govuk-!-margin-bottom-0"><b>Organisation</b> <a href="/v3/hackney" class="govuk-link">Hackney Council</a></p>
+    <p class="govuk-body govuk-!-margin-bottom-0"><b>Document </b><a href="/v3/hackney-local-plan-2033" class="govuk-link">Local plan 2033</a></p>
    <p class="govuk-body"><b>Last updated</b> entry-date</p>
 
    </div>
 
       <div class="govuk-grid-column-two-thirds govuk-body govuk-!-margin-top-3">
-   <h3 class="govuk-heading-s"><a href="/v2/policy-housing-supply" class="govuk-link">Housing Supply</a></h3>
-   <p class="govuk-body govuk-!-margin-bottom-0"><b>Organisation</b> <a href="/v2/hackney" class="govuk-link">Hackney Council</a></p>
-    <p class="govuk-body govuk-!-margin-bottom-0"><b>Document </b><a href="/v2/hackney-local-plan-2033" class="govuk-link">Local plan 2033</a></p>
+   <h3 class="govuk-heading-s"><a href="/v3/policy-housing-supply" class="govuk-link">Housing Supply</a></h3>
+   <p class="govuk-body govuk-!-margin-bottom-0"><b>Organisation</b> <a href="/v3/hackney" class="govuk-link">Hackney Council</a></p>
+    <p class="govuk-body govuk-!-margin-bottom-0"><b>Document </b><a href="/v3/hackney-local-plan-2033" class="govuk-link">Local plan 2033</a></p>
    </div>
 
 </div>
