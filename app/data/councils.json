@@ -805,13 +805,6 @@
      "name":"Guildford"
   },
   {
-   "local-authority-type":"UA",
-   "official-name":"Hackney Borough Council",
-   "local-authority-eng":"HA",
-   "name":"Hackney",
-   "start-date":"1998-04-01"
-},
-  {
      "local-authority-type":"UA",
      "official-name":"Halton Borough Council",
      "local-authority-eng":"HAL",

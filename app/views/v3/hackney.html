@@ -41,8 +41,11 @@
           <p>This download includes data for policies contained in all development planning documents contained. This is for current and emerging local plans for this local authority.</p>
 
       <p><a href="/">Download CSV 15.8KB</a></p>
-          <div class="govuk-panel__body">
-          </div>
+
+          <h3 class="govuk-heading-m">Contact</h3>
+                <p><a href="/">planning@hackney.gov.uk</a></p>
+
+
         </div>
   </main>
 </div>
@@ -55,392 +58,75 @@
       </div>
 
   <div class="govuk-grid-row">
-    <div class="govuk-grid-column-two-thirds">
+    <div class="govuk-grid-column-full">
 
 
-<strong class="govuk-tag govuk-tag--orange">Examination</strong>
-
-<h3 class="govuk-heading-m" >
-      <a href="/v2/hackney-local-plan-2033" class="govuk-link">
-       Local plan 2033
-      </a>
-     </h3>
-      <p><b>Last update:</b> 20 January 2020</p>
-
- <p>The new borough-wide local plan 2033, known as LP33, will be the key strategic planning document used to direct and guide development in the borough up to 2033.</p>
-<details class="govuk-details" data-module="govuk-details">
-  <summary class="govuk-details__summary">
-    <span class="govuk-details__summary-text">
-      Target milestones
-    </span>
-  </summary>
-  <div class="govuk-details__text">
 {% from "govuk/components/table/macro.njk" import govukTable %}
 
 {{ govukTable({
-  firstCellIsHeader: false,
+  caption: "",
+  firstCellIsHeader: true,
   head: [
     {
-      text: "Start date"
+      text: "",
+      classes: 'app-custom-class'
     },
     {
-      text: "End date"
+      text: "Status",
+      classes: 'app-custom-class'
     },
     {
-      text: "Status"
+      text: "Last update",
+      classes: 'app-custom-class'
     }
   ],
   rows: [
-        [
-      {
-        text: "-"
-      },
-      {
-        text: "-"
-      },
-      {
-        html: "<strong class='govuk-tag govuk-tag--blue'>Adoption</strong>"
-      }
-    ],
     [
       {
-        text: "Tuesday 18 June 2019"
-      },
-      {
-        text: "Tuesday 26 June 2019"
+        html: "<p class='govuk-body govuk-!-font-weight-bold govuk-!-margin-bottom-0'><a href='/v3/hackney-local-plan-2033' class='govuk-link'>Local plan 2033</a></p>"
       },
       {
         html: "<strong class='govuk-tag govuk-tag--orange'>Examination</strong>"
+      },
+      {
+        text: "20 January 2020"
       }
     ],
     [
       {
-        text: "23 January 2019"
-      },
-            {
-        text: "-"
+        html: "<p class='govuk-body govuk-!-font-weight-bold govuk-!-margin-bottom-0'><a href='/v3/hackney-local-plan-2033' class='govuk-link'>Core strategy</a></p>"      },
+      {
+        html: "<strong class='govuk-tag govuk-tag--blue'>Adoption</strong>"
       },
       {
-        html: "<strong class='govuk-tag govuk-tag--yellow'>Submission</strong>"
+        text: "15 June 2015"
       }
     ],
         [
       {
-        text: "November 2019"
-      },
-            {
-        text: "January 2019"
+        html: "<p class='govuk-body govuk-!-font-weight-bold govuk-!-margin-bottom-0'><a href='/v3/hackney-local-plan-2033' class='govuk-link'>Site allocation local plan</a></p>"      },
+      {
+        html: "<strong class='govuk-tag govuk-tag--blue'>Adoption</strong>"
       },
       {
-        html: "<strong class='govuk-tag govuk-tag--grey'>Publication</strong>"
+        text: "15 June 2015"
       }
-    ]
-  ]
-}) }}
-
-    <p class="govuk-body-s"><a href="#" class="govuk-link">See all updates</a></p>
-
-  </div>
-
-</details>
-
-<strong class="govuk-tag govuk-tag--orange">Examination</strong>
-
-<h3 class="govuk-heading-m" >
-      <a href="#" class="govuk-link">
-       Policies map
-      </a>
-     </h3>
-      <p><b>Last update:</b> 20 January 2020</p>
-<details class="govuk-details" data-module="govuk-details">
-  <summary class="govuk-details__summary">
-    <span class="govuk-details__summary-text">
-      Target milestones
-    </span>
-  </summary>
-  <div class="govuk-details__text">
-{% from "govuk/components/table/macro.njk" import govukTable %}
-
-{{ govukTable({
-  firstCellIsHeader: false,
-  head: [
-    {
-      text: "Start date"
-    },
-    {
-      text: "End date"
-    },
-    {
-      text: "Status"
-    }
-  ],
-  rows: [
+    ],
       [
       {
-        text: "-"
-      },
-      {
-        text: "-"
-      },
+        html: "<p class='govuk-body govuk-!-font-weight-bold govuk-!-margin-bottom-0'><a href='/v3/hackney-local-plan-2033' class='govuk-link'>Development management local plan</a></p>"      },
       {
         html: "<strong class='govuk-tag govuk-tag--blue'>Adoption</strong>"
-      }
-    ],
-    [
-      {
-        text: "Tuesday 18 June 2019"
       },
       {
-        text: "Tuesday 26 June 2019"
-      },
-      {
-        html: "<strong class='govuk-tag govuk-tag--orange'>Examination</strong>"
-      }
-    ],
-    [
-      {
-        text: "23 January 2019"
-      },
-            {
-        text: "-"
-      },
-      {
-        html: "<strong class='govuk-tag govuk-tag--yellow'>Submission</strong>"
-      }
-    ],
-        [
-      {
-        text: "November 2019"
-      },
-            {
-        text: "January 2019"
-      },
-      {
-        html: "<strong class='govuk-tag govuk-tag--grey'>Publication</strong>"
+        text: "15 June 2015"
       }
     ]
   ]
 }) }}
-      <p class="govuk-body-s"><a href="#" class="govuk-link">See all updates</a></p>
-
-  </div>
-
-</details>
-
-
-<strong class="govuk-tag govuk-tag--blue">Adopted</strong>
-
-<h3 class="govuk-heading-m" >
-      <a href="#" class="govuk-link">
-       Core strategy
-      </a>
-     </h3>
-      <p><b>Last update:</b> 15 June 2015</p>
-
- <p>The Core Strategy sets out the spatial planning framework for Hackney
-to deliver the Sustainable Community Strategy priorities and outcomes over the next 15 years
-and sets strategic locations for delivering this vision.</p>
-<details class="govuk-details" data-module="govuk-details">
-  <summary class="govuk-details__summary">
-    <span class="govuk-details__summary-text">
-      Target milestones
-    </span>
-  </summary>
-  <div class="govuk-details__text">
-{% from "govuk/components/table/macro.njk" import govukTable %}
-
-{{ govukTable({
-  firstCellIsHeader: false,
-  head: [
-    {
-      text: "Start date"
-    },
-    {
-      text: "End date"
-    },
-    {
-      text: "Status"
-    }
-  ],
-  rows: [
-    [
-      {
-        text: "March 2015"
-      },
-      {
-        text: "-"
-      },
-      {
-        html: "<strong class='govuk-tag govuk-tag--blue'>Adopted</strong>"
-      }
-    ],
-    [
-      {
-        text: "January 2014"
-      },
-      {
-        text: "-"
-      },
-      {
-        html: "<strong class='govuk-tag govuk-tag--green'>Inspector's report</strong>"
-      }
-    ],
-    [
-      {
-        text: "September 2014"
-      },
-      {
-        text: "-"
-      },
-      {
-        html: "<strong class='govuk-tag govuk-tag--orange'>Examination</strong>"
-      }
-    ],
-    [
-      {
-        text: "December 2013"
-      },
-      {
-        text: "-"
-      },
-      {
-        html: "<strong class='govuk-tag govuk-tag--yellow'>Submission</strong>"
-      }
-    ]
-  ]
-}) }}
-    <p class="govuk-body-s"><a href="#" class="govuk-link">See all updates</a></p>
-
-  </div>
-
-</details>
 
 
 
-<strong class="govuk-tag govuk-tag--blue">Adopted</strong>
-
-<h3 class="govuk-heading-m" >
-      <a href="" class="govuk-link">
-       Site allocation local plan
-      </a>
-     </h3>
-    <p>Last update</p>
-    <p>The Site Allocation DPD will allocate land for development needs identified in the Local Plan Review such as housing, employment and gypsy and traveller sites and review Settlement Boundaries in line with the Local Plan Review. It covers those parts of the Plan area where local communities have not chosen to identify sites through neighbourhood plans.</p>
-
-<details class="govuk-details" data-module="govuk-details">
-  <summary class="govuk-details__summary">
-    <span class="govuk-details__summary-text">
-      Target milestones
-    </span>
-  </summary>
-  <div class="govuk-details__text">
-{% from "govuk/components/table/macro.njk" import govukTable %}
-
-{{ govukTable({
-  firstCellIsHeader: false,
-  head: [
-    {
-      text: "Start date"
-    },
-    {
-      text: "End date"
-    },
-    {
-      text: "Status"
-    }
-  ],
-  rows: [
-    [
-      {
-        text: "-"
-      },
-      {
-        text: "23 September 2019"
-      },
-      {
-        html: "<strong class='govuk-tag govuk-tag--blue'>Adopted</strong>"
-      }
-    ],
-    [
-      {
-        text: "-"
-      },
-      {
-        text: "13 July 2019"
-      },
-      {
-        html: "<strong class='govuk-tag govuk-tag--orange'>Examination</strong>"
-      }
-    ]
-  ]
-}) }}
-      
-      <p class="govuk-body-s"><a href="#" class="govuk-link">See all updates</a></p>
-  </div>
-</details>
-
-
-<strong class="govuk-tag govuk-tag--blue">Adopted</strong>
-<h3 class="govuk-heading-m" >
-      <a href="" class="govuk-link">
-       Development management local plan
-
-      </a>
-     </h3>
-            <p>Last update</p>
-
-
-    <p>The development management local plan (DMLP) sets out detailed, generally criteria-based, planning policies which we will use, together with the London plan, the core strategy and other supplementary planning documents, to assess planning applications.</p>
-<details class="govuk-details" data-module="govuk-details">
-  <summary class="govuk-details__summary">
-    <span class="govuk-details__summary-text">
-      Target milestones
-    </span>
-  </summary>
-  <div class="govuk-details__text">
-{% from "govuk/components/table/macro.njk" import govukTable %}
-
-{{ govukTable({
-  firstCellIsHeader: false,
-  head: [
-    {
-      text: "Start date"
-    },
-    {
-      text: "End date"
-    },
-    {
-      text: "Status"
-    }
-  ],
-  rows: [
-    [
-      {
-        text: "-"
-      },
-      {
-        text: "-"
-      },
-      {
-        html: "<strong class='govuk-tag govuk-tag--blue'>Adopted</strong>"
-      }
-    ],
-    [
-      {
-        text: "-"
-      },
-      {
-        text: "-"
-      },
-      {
-        html: "<strong class='govuk-tag govuk-tag--orange'>Examination</strong>"
-      }
-    ]
-  ]
-}) }}
-    <p class="govuk-body-s"><a href="#" class="govuk-link">See all updates</a></p>
-  </div>
-</details>
 
 </div>
 

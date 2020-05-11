@@ -35,34 +35,31 @@
     <div class="govuk-grid-row govuk-!-margin-top-9">
       <div class="govuk-grid-column-full">
         <h2 class="govuk-heading-l">National dataset for local plans</h2>
-          <div class="govuk-grid-column-one-half">
-            <h2 class="govuk-heading-xl govuk-!-margin-bottom-0">335</h2>
-            <p class="govuk-body-m">Local planning authorities</p>
+          <div class="govuk-grid-column-one-half govuk-!-padding-left-0">
+            <h2 class="govuk-heading-xl govuk-!-margin-bottom-0 ">200</h2>
+            <p class="govuk-body-m">Adopted plans</p>
           </div>
           <div class="govuk-grid-column-one-half">
-            <h2 class="govuk-heading-xl govuk-!-margin-bottom-0">322</h2>
-            <p class="govuk-body-m">Local plans</p>
+            <h2 class="govuk-heading-xl govuk-!-margin-bottom-0">11</h2>
+            <p class="govuk-body-m">Plans in examination</p>
           </div>
 
             <p class="govuk-body-m ">View and download policy and timetable data from all current and emerging local plans.</p>
-            <p><a href="/v3/plan-data" class="govuk-link">View plan data</a></p>
+
+            {% from "govuk/components/button/macro.njk" import govukButton %}
+
+              {{ govukButton({
+                text: "View plan data",
+                href:"/v3/plan-data"
+              }) }}
         </div>
 
 
       </div>
 
-       <h2 class="govuk-heading-m govuk-!-margin-top-9">Local planning authorities</h2>
+       <h2 class="govuk-heading-l govuk-!-margin-top-9">Local planning authorities</h2>
         <p class="govuk-body-m">Find a planning authority's local plan.</p>
         <p><a href="/v3/organisation" class="govuk-link">View planning authorities</a></p>
-    <div class="govuk-grid-row govuk-!-margin-top-9">
-
-      <div class="govuk-grid-column-one-half">
-        <h2 class="govuk-heading-m">Publish your data</h2>
-        <p class="govuk-body-m">Some content on what sits behind this link</p>
-        <p><a href="#" class="govuk-link">Publish data</a></p>
-
-      </div>
-    </div>
 
            
      
@@ -73,7 +70,7 @@
 
       <aside class="app-related-items" role="complementary">
         <h2 class="govuk-heading-m" id="subsection-title">
-          Subsection
+          Related content
         </h2>
         <nav role="navigation" aria-labelledby="subsection-title">
           <ul class="govuk-list govuk-!-font-size-16">
@@ -84,7 +81,7 @@
             </li>
             <li>
               <a href="#">
-                Related link
+                Publish your local plan data
               </a>
             </li>
           </ul>
