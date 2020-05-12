@@ -25,7 +25,7 @@ router.get("/v3/plan-data", function (req, res) {
         html: plan['status']
       },
       {
-        html: "<a href='#'>plan['planning-authority']</a>"
+        html: "<a href='#' class='govuk-link'>" + plan['planning-authority'] + "</a>"
       },
       {
         html: plan['policy-start-date']
