@@ -58,7 +58,7 @@
 
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-full">
-    <h3 class="govuk-heading-m">Timetable</h3>
+    <h3 class="govuk-heading-l">Timetable</h3>
      <p class="govuk-body-s">Last updated: ???<p>
       <p class="govuk-body-s"><a href="/v3/hackney-updates" class="govuk-link">See all updates</a></p>
 
@@ -145,9 +145,17 @@
       </div>
       </div>
 
-      <h3 class="govuk-heading-m">Policies data</h3>
+
+        <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+      <h3 class="govuk-heading-l">Policies data</h3>
+
+      <p class="govuk-body-m">There are <b>67 policies</b> in Local plan 2033. You can view the policy page by selecting the link the data table.</p>
+
 
       <p class="govuk-body-s"><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSTheyrwpOHm7VXxot2Z1Et4qnRTUBBSlG7TasKH9sjBwnsXQt_nqt21bJFEJnwukmuZ1ZaOVMO1UOE/pubhtml" class="govuk-link">Download policies</a> CSV, 19.5 KB</p>
+
+
 {% from "govuk/components/select/macro.njk" import govukSelect %}
 
 {{ govukSelect({
@@ -194,9 +202,8 @@
   ]
 }) }}
 
-    <div class="govuk-grid-row">
-    <div class="govuk-grid-column-full">
-<table class="govuk-table">
+
+<table class="govuk-table govuk-table-full">
   <caption class="govuk-table__caption"></caption>
   <thead class="govuk-table__head">
     <tr class="govuk-table__row">
@@ -204,56 +211,50 @@
       <th scope="col" class="govuk-table__header govuk-table__header--numeric ">Name</th>
       <th scope="col" class="govuk-table__header govuk-table__header--numeric">Category</th>
       <th scope="col" class="govuk-table__header govuk-table__header--numeric">Status</th>
-      <th scope="col" class="govuk-table__header govuk-table__header--numeric">Unit</th>
+      <th scope="col" class="govuk-table__header govuk-table__header--numeric ">Unit</th>
       <th scope="col" class="govuk-table__header govuk-table__header--numeric">Type</th>
-            <th scope="col" class="govuk-table__header govuk-table__header--numeric">Spatial element</th>
     </tr>
   </thead>
   <tbody class="govuk-table__body">
     <tr class="govuk-table__row">
       <td class="govuk-table__cell govuk-table__cell--numeric">PP1</td>
-      <td class="govuk-table__cell govuk-table__cell--numeric"><a href="policy-public-realm" class="govuk-link">Public Realm</a></td>
-        <td class="govuk-table__cell govuk-table__cell--numeric">CB</td>
+      <td class="govuk-table__cell govuk-table__cell--numeric"><a href="policy-public-realm" class="govuk-link"><b>Public Realm<b></a></td>
+        <td class="govuk-table__cell govuk-table__cell--numeric">Conservation and enhancement of the built environment</td>
         <td class="govuk-table__cell govuk-table__cell--numeric">Examination</td>
         <td class="govuk-table__cell govuk-table__cell--numeric">-</td>
         <td class="govuk-table__cell govuk-table__cell--numeric">Strategic</td>
-        <td class="govuk-table__cell govuk-table__cell--numeric">[]</td>
     </tr>
     <tr class="govuk-table__row">
      <td class="govuk-table__cell govuk-table__cell--numeric">PP2</td>
       <td class="govuk-table__cell govuk-table__cell--numeric">Dalston</td>
-        <td class="govuk-table__cell govuk-table__cell--numeric">CB</td>
+        <td class="govuk-table__cell govuk-table__cell--numeric">Conservation and enhancement of the built environment</td>
         <td class="govuk-table__cell govuk-table__cell--numeric">Examination</td>
         <td class="govuk-table__cell govuk-table__cell--numeric">-</td>
         <td class="govuk-table__cell govuk-table__cell--numeric">Strategic</td>
-        <td class="govuk-table__cell govuk-table__cell--numeric">[]</td>
     </tr>
     <tr class="govuk-table__row">
      <td class="govuk-table__cell govuk-table__cell--numeric">LP12</td>
       <td class="govuk-table__cell govuk-table__cell--numeric">Housing Supply</td>
-        <td class="govuk-table__cell govuk-table__cell--numeric">HO</td>
+        <td class="govuk-table__cell govuk-table__cell--numeric">Housing</td>
         <td class="govuk-table__cell govuk-table__cell--numeric">Examination</td>
         <td class="govuk-table__cell govuk-table__cell--numeric">17290</td>
         <td class="govuk-table__cell govuk-table__cell--numeric">Strategic</td>
-        <td class="govuk-table__cell govuk-table__cell--numeric">[]</td>
     </tr>
         <tr class="govuk-table__row">
      <td class="govuk-table__cell govuk-table__cell--numeric">LP13</td>
       <td class="govuk-table__cell govuk-table__cell--numeric">Affordable Housing</td>
-        <td class="govuk-table__cell govuk-table__cell--numeric">HO</td>
+        <td class="govuk-table__cell govuk-table__cell--numeric">Housing</td>
         <td class="govuk-table__cell govuk-table__cell--numeric">Examination</td>
         <td class="govuk-table__cell govuk-table__cell--numeric">5187</td>
         <td class="govuk-table__cell govuk-table__cell--numeric">Strategic</td>
-        <td class="govuk-table__cell govuk-table__cell--numeric">[]</td>
     </tr>
         <tr class="govuk-table__row">
      <td class="govuk-table__cell govuk-table__cell--numeric">LP14</td>
       <td class="govuk-table__cell govuk-table__cell--numeric">Dwelling Size Mix</td>
-        <td class="govuk-table__cell govuk-table__cell--numeric">HO</td>
+        <td class="govuk-table__cell govuk-table__cell--numeric">Housing</td>
         <td class="govuk-table__cell govuk-table__cell--numeric">Examination</td>
         <td class="govuk-table__cell govuk-table__cell--numeric">-</td>
         <td class="govuk-table__cell govuk-table__cell--numeric">Strategic</td>
-        <td class="govuk-table__cell govuk-table__cell--numeric">[]</td>
     </tr>
         <tr class="govuk-table__row">
      <td class="govuk-table__cell govuk-table__cell--numeric">LP15</td>
@@ -262,26 +263,12 @@
         <td class="govuk-table__cell govuk-table__cell--numeric">Examination</td>
         <td class="govuk-table__cell govuk-table__cell--numeric">-</td>
         <td class="govuk-table__cell govuk-table__cell--numeric">Strategic</td>
-        <td class="govuk-table__cell govuk-table__cell--numeric">[]</td>
     </tr>
   </tbody>
 </table>
 
 
-      <h3 class="govuk-heading-s">Additional information</h3>
-    <details class="govuk-details" data-module="govuk-details">
-    <summary class="govuk-details__summary">
-      <span class="govuk-details__summary-text">
-        Metadata description
-      </span>
-    </summary>
-    <div class="govuk-details__text">
-        <p><b>Categories</b> Housing [HO], Employment [EM], Transport infrastructure [TI], conservation and enhancement of the built environment [CB]</p>
-    </div>
-  </details>
 </div>
-</div>
-
     
 </div>
 </div>
