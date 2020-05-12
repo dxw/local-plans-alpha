@@ -54,6 +54,7 @@
 
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-full">
+      <p class="govuk-body-s"><a href="/v3/hackney-updates" class="govuk-link">See all updates</a></p>
 
 
 {% from "govuk/components/table/macro.njk" import govukTable %}
@@ -63,15 +64,23 @@
   firstCellIsHeader: true,
   head: [
     {
-      text: "",
+      text: "Name",
       classes: 'app-custom-class'
     },
     {
       text: "Status",
       classes: 'app-custom-class'
     },
+        {
+      text: "Start date",
+      classes: 'app-custom-class'
+    },
+        {
+      text: "End date",
+      classes: 'app-custom-class'
+    },
     {
-      text: "Last update",
+      text: "Last updated",
       classes: 'app-custom-class'
     }
   ],
@@ -84,6 +93,12 @@
         html: "<strong class='govuk-tag govuk-tag--orange'>Examination</strong>"
       },
       {
+        text: "-"
+      },
+            {
+        text: "-"
+      },
+            {
         text: "20 January 2020"
       }
     ],
@@ -94,31 +109,18 @@
         html: "<strong class='govuk-tag govuk-tag--blue'>Adoption</strong>"
       },
       {
-        text: "15 June 2015"
-      }
-    ],
-        [
-      {
-        html: "<p class='govuk-body govuk-!-font-weight-bold govuk-!-margin-bottom-0'><a href='/v3/hackney-local-plan-2033' class='govuk-link'>Site allocation local plan</a></p>"      },
-      {
-        html: "<strong class='govuk-tag govuk-tag--blue'>Adoption</strong>"
+        text: "2010"
       },
-      {
-        text: "15 June 2015"
-      }
-    ],
-      [
-      {
-        html: "<p class='govuk-body govuk-!-font-weight-bold govuk-!-margin-bottom-0'><a href='/v3/hackney-local-plan-2033' class='govuk-link'>Development management local plan</a></p>"      },
-      {
-        html: "<strong class='govuk-tag govuk-tag--blue'>Adoption</strong>"
+            {
+        text: "2025"
       },
-      {
-        text: "15 June 2015"
+               {
+        text: "-"
       }
     ]
   ]
 }) }}
+
 
 
 

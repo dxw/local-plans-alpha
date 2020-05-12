@@ -1,0 +1,85 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Timetable updates
+{% endblock %}
+
+{% block beforeContent %}
+  <a class="govuk-back-link" href="/url/of/previous/page">Back</a>
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-l">
+        Timetable updates
+      </h1>
+    </div>
+    </div>
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+
+<div class="govuk-accordion" data-module="govuk-accordion" id="accordion-default">
+  <div class="govuk-accordion__section ">
+    <div class="govuk-accordion__section-header">
+      <h2 class="govuk-accordion__section-heading">
+        <span class="govuk-accordion__section-button" id="accordion-default-heading-1">
+          20 January 2020
+        </span>
+      </h2>
+    </div>
+    <div id="accordion-default-content-1" class="govuk-accordion__section-content" aria-labelledby="accordion-default-heading-1">
+      <p class='govuk-body'>
+      {{ govukTable({
+  caption: "",
+  firstCellIsHeader: false,
+  head: [
+    {
+      text: "Name",
+      classes: 'app-custom-class'
+    },
+    {
+      text: "Field",
+      classes: 'app-custom-class'
+    },
+    {
+      text: "Previous value",
+      classes: 'app-custom-class'
+    },
+    {
+      text: "New value",
+      classes: 'app-custom-class'
+    }
+  ],
+  rows: [
+    [
+      {
+        html: "<a href='#' class='govuk-link'>Local plan part 2033</a>"
+      },
+      {
+        text: "Entry date"
+      },
+      {
+        text: "20 January 2020"
+      },
+      {
+        text: "04 March 2020"
+      }
+    ]
+  ]
+}) }}
+</p>
+
+<p class="govuk-body govuk-!-font-weight-bold govuk-!-padding-top-5">Reason for updates</p>
+<p>Delay in drafting.</p>
+
+    </div>
+  </div>
+
+    </div>
+  </div>
+
+{% endblock %}
