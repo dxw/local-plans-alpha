@@ -89,3 +89,10 @@ $govuk-assets-path: '/govuk/assets/';
     overflow:scroll;
 
 }
+.govuk-table__header, .govuk-table__cell, .govuk-select {
+    font-size: 16px;
+}
+
+.inline {
+    display: inline-block;
+}

@@ -32,6 +32,9 @@ router.get("/v3/plan-data", function (req, res) {
       },
       {
         html: plan['policy-end-date']
+      },
+      {
+        html: plan['category']
       }
     ]
   })

@@ -9,6 +9,20 @@
         "type":"strategic",
         "unit-type": "unit-type",
         "unit": "unit",
+        "category": ["Housing", "Transport"]
+
+    },
+    {   
+        "status":"adopted",
+        "document":"dpd",
+        "plan-type":"plantype",
+        "name":"name",
+        "planning-authority":"local planning authority",
+        "policy-start-date":"start date",
+        "policy-end-date":"end date",
+        "type":"strategic",
+        "unit-type": "unit-type",
+        "unit": "unit",
         "category": ["HO", "EM", "T"]
 
     },
@@ -18,8 +32,50 @@
         "plan-type":"plantype",
         "name":"name",
         "planning-authority":"local planning authority",
-        "policy-start-date":"entry date",
-        "policy-end-date":"start date",
+        "policy-start-date":"start date",
+        "policy-end-date":"end date",
+        "type":"strategic",
+        "unit-type": "unit-type",
+        "unit": "unit",
+        "category": ["HO", "EM", "T"]
+
+    },
+    {   
+        "status":"adopted",
+        "document":"dpd",
+        "plan-type":"plantype",
+        "name":"name",
+        "planning-authority":"local planning authority",
+        "policy-start-date":"start date",
+        "policy-end-date":"end date",
+        "type":"strategic",
+        "unit-type": "unit-type",
+        "unit": "unit",
+        "category": ["HO", "EM", "T"]
+
+    },
+    {   
+        "status":"adopted",
+        "document":"dpd",
+        "plan-type":"plantype",
+        "name":"name",
+        "planning-authority":"local planning authority",
+        "policy-start-date":"start date",
+        "policy-end-date":"end date",
+        "type":"strategic",
+        "unit-type": "unit-type",
+        "unit": "unit",
+        "category": ["HO", "EM", "T"]
+
+    },
+    {   
+        "status":"adopted",
+        "document":"dpd",
+        "plan-type":"plantype",
+        "name":"name",
+        "planning-authority":"local planning authority",
+        "policy-start-date":"start date",
+        "policy-end-date":"end date",
         "type":"strategic",
         "unit-type": "unit-type",
         "unit": "unit",
