@@ -1,11 +1,11 @@
 [
     {   
-        "status":"adopted",
-        "document":"dpd",
-        "name":"name",
-        "planning-authority":"local planning authority",
-        "policy-start-date":"entry date",
-        "policy-end-date":"start date",
+        "status":"Adopted",
+        "document":"Local plan",
+        "name":"Adur Local Plan 2017 (adopted) - Part 1",
+        "planning-authority":"Adur District Council",
+        "policy-start-date":"2011",
+        "policy-end-date":"2032",
         "type":"strategic",
         "unit-type": "unit-type",
         "unit": "unit",
@@ -15,6 +15,7 @@
     {   
         "status":"adopted",
         "document":"dpd",
+        "plan-type":"plantype",
         "name":"name",
         "planning-authority":"local planning authority",
         "policy-start-date":"entry date",
