@@ -73,11 +73,9 @@
 
 
 <div class= "govuk-grid-row">
-    <div class="govuk-grid-column-full">
+<div class="govuk-grid-column-full">
 
-
-
-      <h3 class="govuk-heading-s">Plan status</h3>
+  <h3 class="govuk-heading-s">Plan status</h3>
 
 
 {{ govukSelect({
@@ -89,43 +87,95 @@
   items: [
     {
       value: "status",
-      text: "Status",
-      selected: true
+      text: "Status"
 
     },
        {
       value: "out-of-date",
-      text: "Out of date"    
+      text: "Out of date"
       },
     {
       value: "preparation",
-      text: "Preparation"    
+      text: "Preparation"
       },
     {
       value: "publication",
-      text: "Publication"    
+      text: "Publication"
       },
         {
       value: "submission",
-      text: "Submission"    
+      text: "Submission"
       },
     {
       value: "examination",
-      text: "Examination"    
+      text: "Examination"
       },
         {
       value: "adopted",
-      text: "Adopted"    
+      text: "Adopted",
+      selected: true
       }
-  
+
   ]
 }) }}
 </div>
 
+<div class="govuk-grid-column-full">
+
+  <h3 class="govuk-heading-s">Plan type</h3>
+
+
+{{ govukSelect({
+  id: "sort",
+  name: "sort",
+  label: {
+    text: ""
+  },
+  items: [
+    {
+      value: "plan-type",
+      text: "Plan type",
+      selected: true
+
+    },
+       {
+      value: "AAP",
+      text: "Area Action Plan"
+      },
+    {
+      value: "CS",
+      text: "Core strategy"
+      },
+    {
+      value: "DM",
+      text: "Development management"
+      },
+        {
+      value: "LP",
+      text: "Local plan"
+      },
+    {
+      value: "MW",
+      text: "Minerals and Waste"
+      },
+        {
+      value: "other",
+      text: "All other types"
+      },
+      {
+      value: "PR",
+      text: "Partial Review"
+      },
+      {
+      value: "SA",
+      text: "Site Allocations"
+      }
+
+  ]
+}) }}
+</div>
 
     <div class="govuk-grid-column-full">
-
-
 
       <h3 class="govuk-heading-s">Category</h3>
 
@@ -161,7 +211,7 @@
  
 
 <button class="govuk-button" data-module="govuk-button" >
-  Apply filter
+  Search
 </button>
 
 
@@ -173,15 +223,14 @@
 
   <div class="govuk-grid-column-two-thirds">
 
-        <p class="govuk-!-margin-bottom-9">There are <b>200 adopted plans</b> across <b>150 local planning authorities</b>.</p>
-
-{% for plan in plans %}
+  <p class="govuk-!-margin-bottom-9">There are <b>200 adopted plans</b> across <b>150 local planning authorities</b>.</p>
 
 {% from "govuk/components/table/macro.njk" import govukTable %}
 
 {{ govukTable({
   caption: "",
-  firstCellIsHeader: true,
+  classes: "scroll",
+  firstCellIsHeader: false,
   head: [
     {
       text: "Name"
@@ -191,24 +240,16 @@
     },
     {
       text: "Local planning authority"
+    },
+    {
+      text: "Policy start date"
+    },
+        {
+      text: "Policy end date"
     }
   ],
-  rows: [
-    [
-      {
-        html: "{{ plan['name'] }}"
-      },
-      {
-        html: "{{ plan['status'] }}"
-      },
-      {
-        html: "{{ plan['planning-authority'] }}"
-      }
-
-    ]
-  ]
+  rows: plans
 }) }}
-{% endfor %}
 
   </div>
 </div>
