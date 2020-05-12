@@ -35,7 +35,7 @@
     </div>
 </div>
 
-  <h3 class="govuk-heading-l govuk-!-margin-top-9">Facts from the data</h3>
+  <h3 class="govuk-heading-l govuk-!-margin-top-9 ">Facts from the data</h3>
 
 
           <div class="govuk-grid-column-one-half govuk-!-padding-left-0">
@@ -55,9 +55,120 @@
             <h2 class="govuk-heading-xl govuk-!-margin-bottom-0">9</h2>
             <p class="govuk-body-m">Local plans out of date</p>
           </div>
+
+<div class= "govuk-grid-row">
+    <div class="govuk-grid-column-full govuk-!-margin-top-9">
+
+{% from "govuk/components/table/macro.njk" import govukTable %}
+
+{{ govukTable({
+  caption: "",
+  classes:"table-size",
+  firstCellIsHeader: false,
+  head: [
+    {
+      text: "Month"
+    },
+    {
+      text: "Adoption"
+    },
+    {
+      text: "Examination"
+    },    {
+      text: "Submission"
+    }
+  ],
+  rows: [
+    [
+      {
+        text: "January"
+      },
+      {
+        html: "<strong class='govuk-tag govuk-tag--blue'>34</strong>"
+      },
+      {
+        html: "<strong class='govuk-tag govuk-tag--orange'>2</strong>"
+      },
+      {
+      html:""
+      }
+    ],
+    [
+      {
+        text: "February"
+      },
+      {
+        html: "<strong class='govuk-tag govuk-tag--blue'>2</strong>"
+      },
+      {
+      html:""
+      },
+      {
+      html:""
+      }
+    ],
+    [
+      {
+        text: "March"
+      },
+      {
+        text: ""
+      },
+      {
+      html:""
+      },
+      {
+      html:""
+      }
+    ],
+        [
+      {
+        text: "April"
+      },
+      {
+        text: ""
+      },
+      {
+      html:""
+      },
+      {
+      html:""
+      }
+    ],
+      [
+      {
+        text: "May"
+      },
+      {
+        text: ""
+      },
+      {
+      html:""
+      },
+      {
+      html:""
+      }
+    ],
+    [
+      {
+        text: "June"
+      },
+      {
+        text: ""
+      },
+      {
+      html:""
+      },
+      {
+      html:""
+      }
+    ]
+  ]
+}) }}
+
+</div>
+</div>
         </div>
-
-
 
     <div class="govuk-grid-column-full">
 
@@ -105,8 +216,8 @@
       text: "Examination"
       },
         {
-      value: "adopted",
-      text: "Adopted",
+      value: "adoption",
+      text: "Adoption",
       selected: true
       }
 
