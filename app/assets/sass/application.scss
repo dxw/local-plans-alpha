@@ -95,4 +95,39 @@ $govuk-assets-path: '/govuk/assets/';
 
 .inline {
     display: inline-block;
+    margin-right: 20px;
+}
+
+
+.sort span {
+    position: relative;
+    margin: 0;
+    padding: 0 10px 0 0;
+    border-width: 0;
+    color: #0b0c0c;
+    background-color: transparent;
+    box-shadow: 0 0 0 0;
+    font-family: inherit;
+    font-size: inherit;
+    font-size: 1em;
+    font-weight: inherit;
+    text-align: inherit;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sort span::before {
+        content: " \25bc";
+        position: absolute;
+        top: 9px;
+        right: -10px;
+        font-size: .5em;
+    }
+
+.sort span::after {
+    content: " \25b2";
+    position: absolute;
+    top: 1px;
+    right: -10px;
+    font-size: .5em;
 }
