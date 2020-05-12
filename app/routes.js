@@ -13,4 +13,9 @@ router.get("/v3/organisation", function (req, res) {
   res.render('v3/organisation', { councils: councils });
 })
 
+router.get("/v3/plan-data", function (req, res) {
+  var councils = require('./data/councils.json')
+  res.render('v3/plan-data', { councils: councils });
+})
+
 module.exports = router
