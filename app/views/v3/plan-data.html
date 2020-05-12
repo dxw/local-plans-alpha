@@ -211,6 +211,8 @@
 
         <p class="govuk-!-margin-bottom-9">There are <b>200 adopted plans</b> across <b>150 local planning authorities</b>.</p>
 
+{% for plan in plans %}
+
 {% from "govuk/components/table/macro.njk" import govukTable %}
 
 {{ govukTable({
@@ -221,56 +223,28 @@
       text: "Name"
     },
     {
-      text: "Status",
-      format: "numeric"
+      text: "Status"
     },
     {
-      text: "Local planning authority",
-      format: "numeric"
+      text: "Local planning authority"
     }
   ],
   rows: [
     [
       {
-        text: "DPD1"
+        html: "{{ plan['name'] }}"
       },
       {
-        text: "Adopted",
-        format: "numeric"
+        html: "{{ plan['status'] }}"
       },
       {
-        text: "LPA1",
-        format: "numeric"
+        html: "{{ plan['planning-authority'] }}"
       }
-    ],
-    [
-      {
-        text: "DPD2"
-      },
-      {
-        text: "Adopted",
-        format: "numeric"
-      },
-      {
-        text: "LPA2",
-        format: "numeric"
-      }
-    ],
-    [
-      {
-        text: "DPD3"
-      },
-      {
-        text: "Submitted",
-        format: "numeric"
-      },
-      {
-        text: "LPA3",
-        format: "numeric"
-      }
+
     ]
   ]
 }) }}
+{% endfor %}
 
   </div>
 </div>
@@ -302,8 +276,6 @@
       </form>
 
   </div>
-
-
 </div>
 </div>
 

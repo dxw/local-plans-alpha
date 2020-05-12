@@ -1,0 +1,28 @@
+[
+    {   
+        "status":"adopted",
+        "document":"dpd",
+        "name":"name",
+        "planning-authority":"local planning authority",
+        "policy-start-date":"entry date",
+        "policy-end-date":"start date",
+        "type":"strategic",
+        "unit-type": "unit-type",
+        "unit": "unit",
+        "category": ["HO", "EM", "T"]
+
+    },
+    {   
+        "status":"adopted",
+        "document":"dpd",
+        "name":"name",
+        "planning-authority":"local planning authority",
+        "policy-start-date":"entry date",
+        "policy-end-date":"start date",
+        "type":"strategic",
+        "unit-type": "unit-type",
+        "unit": "unit",
+        "category": ["HO", "EM", "T"]
+
+    }
+]
