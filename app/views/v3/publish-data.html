@@ -19,10 +19,10 @@
 
   <div class="govuk-grid-column-one-quarter">
 
-      <p>Content</p>
-      <p class="govuk-body-s"><a href="" class="govuk-link">Step 1: Create your CSV files</a></p>
-      <p class="govuk-body-s"><a href="" class="govuk-link">Step 2: Update your local plan web page</a></p>
-      <p class="govuk-body-s"><a href="" class="govuk-link">Step 3: Submit the URLs you created in Step 2 to the national register of developer contributions
+      <p><b>Content</b></p>
+      <p class="govuk-body-s"><a href="#step-1" class="govuk-link">Step 1: Create your CSV files</a></p>
+      <p class="govuk-body-s"><a href="#step-2" class="govuk-link">Step 2: Update your local plan web page</a></p>
+      <p class="govuk-body-s"><a href="#step-3" class="govuk-link">Step 3: Submit the URLs you created in Step 2 to the national register of developer contributions
 </a></p>
 
 
@@ -35,9 +35,9 @@
         Publish your development management plans
 
       </h1>
-      <p>Section 19(1B) - (1E) of the Planning and Compulsory Purchase Act 2004 sets out that each local planning authority must identify their strategic priorities and have policies to address these in their development plan documents (taken as a whole).</p>
+      <p><a href="http://www.legislation.gov.uk/ukpga/2017/20/section/8" class="govuk-link">Section 19(1B) - (1E) of the Planning and Compulsory Purchase Act 2004</a> sets out that each local planning authority must identify their strategic priorities and have policies to address these in their development plan documents (taken as a whole).</p>
 
-      <p>A Local Development Scheme is required under section 15 of the Planning and Compulsory Purchase Act 2004 (as amended). This must specify the development plan documents (i.e. local plans) which, when prepared, will comprise part of the development plan for the area. The Local Development Scheme must be made available publicly and kept up-to-date. </p>
+      <p>A Local Development Scheme is required under <a href="http://www.legislation.gov.uk/ukpga/2017/20/section/8" class="govuk-link">section 15 of the Planning and Compulsory Purchase Act 2004 (as amended)</a>. This must specify the development plan documents (i.e. local plans) which, when prepared, will comprise part of the development plan for the area. The Local Development Scheme must be made available publicly and kept up-to-date. </p>
 
       <p>Local Development Schemes must also be produced in compliance with any data standard for this purpose published by MHCLG. Up-to-date and accessible reporting on the Local Development Scheme in an Authority’s Monitoring Report is an important way in which authorities can keep communities informed of plan making activity.</p>
 
@@ -50,11 +50,254 @@
 
       <p>The data will give policy makers better insights into how local plans are supporting new development and local infrastructure. We have designed the data format to cause as little disruption as possible to existing processes.</p>
 
-      <p>Please share any feedback on this guidance by emailing DigitalLand@communities.gov.uk</p>
+      <p>Please share any feedback on this guidance by emailing <a href="#" class="govuk-link">DigitalLand@communities.gov.uk</a></p>
 
 
-      <h2 class="govuk-heading-l">Publish your development management plans</h2>
+      <h2 class="govuk-heading-l">Make your data findable, usable and trustworthy</h2>
       <p>A local plan sets out all local planning policies and decisions for authorities. It identifies how land is used, decides what will be built where and is used to determine all local planning decisions. Every local planning authority is required to update its local plan every 5 years.</p>
+
+      <p> But for data to be useful it must be easy to find, use, understand and trust. Local planning authorities should ensure that their developer contributions data is all of these by following this specification for how to format, label and publish it. The following guidance gives a high-level overview of the data format and the publication process.</p>
+      
+      <p>As a local planning authority, you must review your development management data at least once a year. However, you should update your register as soon as there is any change to your local development scheme or plans to increase trust in the data.</p>
+
+      <h3 class="govuk-heading-m">Publishing developer contributions: 3 steps</h3>
+      <p>Planning authorities must publish their development plan data once a year but are encouraged to do so as frequently as they can so that datasets are up to date. </p>
+      <p>This guidance applies to the publication of development plan data going forward – you are not required to republish historical data so that it complies with this guidance.</p> 
+      <p>Publishing is a 3 step process:</p>
+      <ol class="govuk-list govuk-list--bullet">
+        <li>Create 2 development management CSV files to store the data</li>
+        <li>Upload each of these files to your organisation’s website and give them a persistent URL, then clearly link to them from your local plan web page</li>
+        <li>Submit the URLs you created in Step 2 to the national register of developer contributions</li>
+      </ol>
+
+      <h2 class="govuk-heading-l" id="step-1">Step 1: Create your CSV files</h2>
+      <p>To complete step 1 you must be able to create or amend CSV files, for example by using spreadsheet software.</p>
+      <p>Development management data must be entered in 2 separate CSV files. A CSV file (or comma separated value file) is a universally recognised file format for storing tabular data in plain text. Storing the data in 2 separate files rather than 1 file reduces duplication and makes the data easier to use and maintain.</p>
+      <p>We’ve created a CSV template for each of the 2 files:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li><a href="#" class="govuk-link">CSV 1: local development scheme</a></li>
+        <li><a href="#" class="govuk-link">CSV 2: policies</a></li>
+      </ul>
+
+      <p>If it helps, you can use the above example files and enter your data. You must follow the guidelines below, then ‘save as .csv file’. You can use software such as Microsoft Excel, Google Sheets or Apple Numbers, as long as they meet the requirements of this guidance.</p>
+
+      <p>Each of the CSV files must:</p>
+
+      <ul class="govuk-list govuk-list--bullet">
+        <li>be named using the convention specified in each section below</li>
+        <li>contain certain column headers (written exactly as shown, in lowercase)</li>
+        <li>only contain entries that conform to the constraints described below</li>
+      </ul>
+
+      <p><a href="https://w3c.github.io/csvw/primer/" class="govuk-link">Find out more about creating a CSV file</a>.</p>
+
+      <h3 class="govuk-heading-m">CSV file 1: Development Plan Documents</h3>
+      <p>A development plan document is any document that contains policies that address strategic priorities for development under the Planning and Compulsory Purchase Act 2004.</p>
+      <p>The Local Development Scheme sets out the development plan documents which, when prepared, will comprise part of the development plan for the area. It sets out the expected dates that each development plan document will enter the specific phases in its progress to becoming adopted.</p>
+      <p>The development plan documents CSV file records, as seperate lines, each status that a development plan document will move through on its progress to becoming adopted.</p>
+      <p><a href="https://digital-land.github.io/guidance/data-principles/#not-deleting-entries-in-a-register" class="govuk-link">Do not delete or overwrite old or superseded entries</a>, but simply fill in the ‘end-date’ field.</p>
+      <h3 class="govuk-heading-m">Name your CSV file</h3>
+      <p>Development Plan Documents and their expected dates must be listed in a CSV file named exactly as follows, but with the actual date you created the file instead of YYYYMMDD:</p>
+      <p>development_management_document_YYYYMMDD.csv</p>
+      <h3 class="govuk-heading-m">Column headers:</h3>
+      <h4 class="govuk-heading-m">dpd-id</h4>
+      <p>Create a unique identifier for the document. By ‘unique’ this means it should not be used for anything else in your organisation (for example ‘dpd1’). The unique identifier will be used to map against the policies contained within the dpd.</p>
+      <h4 class="govuk-heading-m">organisations</h4>
+      <p><a href="https://digital-land.github.io/organisation/" class="govuk-link">Find your organisation in this list</a> (in most cases this will be a local planning authority). Text must follow the same letter casing, with no spaces. Norfolk’s local planning authority, for example, would be:</p>
+      <p>local-authority-eng:NFK</p>
+      <p>If a DPD relates to multiple organisations, for example a joint local plan, enter each organisation separated by a space.</p>
+      <p>Read the MHCLG Digital Land team’s <a href="https://digital-land.github.io/guidance/data-principles/" class="govuk-link">data principles</a> for more information on dates.</p>
+      <h4 class="govuk-heading-m">status</h4>
+      <p>Each development plan document should be recorded on multiple lines to reflect the stages that the document will go through on its progress to adoption. Each line relates to the status that the document will move through. For new development plan documents record the status on separate lines:</p>
+
+      <ul class="govuk-list govuk-list--bullet">
+        <li>‘regulation18’</li>
+        <li>‘regulation19’</li>
+        <li>‘submission’</li>
+        <li>‘adopted’</li>
+      </ul>
+
+    <p>For existing development plan documents that are withdrawn, you can add a new line with the status ‘withdrawn’ </p>
+    <h4 class="govuk-heading-m">entry-date</h4>
+
+    <p>Enter the date that you record this data (for example today’s date), in the format YYYY-MM-DD. For 1 February 2019, for example, you should enter 2019-02-01.</p>
+
+    <h4 class="govuk-heading-m">start-date</h4>
+    <p>Enter the date that the development plan document is expected to enter the status relating to this line, or the date on which this has already happened.</p>
+    <p>If this date changes, then a new line should be entered with the new date in this field. Do not delete or overwrite old or superseded entries.</p>
+    <p>Enter the date in the same format as the entry-date column.</p>
+
+    <h4 class="govuk-heading-m">end-date</h4>
+    <p>Leave this blank if this status has not yet completed. If it has, enter the last day this status was in effect, in the same format as the entry-date column.</p>
+    <h4 class="govuk-heading-m">dpd-name</h4>
+    <p>Enter the name of the development plan document</p>
+    <h4 class="govuk-heading-m">document-url</h4>
+
+    <p>Enter the web address that links directly to the actual development management document. If the document is not published, leave this blank.</p>
+
+    <h4 class="govuk-heading-m">category</h4>
+    <p>Enter the strategic category or categories from the National Planning Policy Framework that are addressed in the development plan document from the list below. If there are multiple categories, separate each category with a space.</p>
+
+    <ul class="govuk-list govuk-list--bullet">
+      <li>‘HO’	housing</li>
+      <li>‘EM’	employment</li>
+      <li>‘RE’	retail</li>
+      <li>‘LE’	leisure</li>
+      <li>‘OC’	other commercial development</li>
+      <li>‘TI’	transport infrastructure</li>
+      <li>‘TE’	telecommunications</li>
+      <li>‘SE’	security</li>
+      <li>‘TI’	transport infrastructure</li>
+      <li>‘WM’	waste management</li>
+      <li>‘WW’	wastewater</li>
+      <li>‘FR’	flood risk</li>
+      <li>‘WS’	water supply</li>
+      <li>‘CC’	coastal change management</li>
+      <li>‘ME’	provision of minerals and energy</li>
+      <li>‘CF’	community facilities</li>
+      <li>‘CN’	conservation and enhancement of the natural environment</li>
+      <li>‘CB’	conservation and enhancement of the built environment</li>
+      <li>‘CH’	conservation and enhancement of the historic environment/li>
+    </ul>
+
+    <h4 class="govuk-heading-m">shape</h4>
+
+    <p>Enter the polygon data that relates to the geographic area covered by the development plan document in <a href="https://geojson.org/" class="govuk-link">GeoJSON format</a></p>
+
+    <h4 class="govuk-heading-m">description</h4>
+    <p>Enter a short (<100 character) description of the development plan document</p>
+
+    <h4 class="govuk-heading-m">policy-period-start</h4>
+    <p>Enter the date that the policies in the development plan document will come into effect.</p>
+    <p>Enter the date in the same format as the entry-date column.</p>
+
+    <h4 class="govuk-heading-m">policy-period-end</h4>
+
+    <p>Enter the date that the policies in the development plan document will cease to be in effect.</p>
+
+    <p>Enter the date in the same format as the entry-date column.</p>
+
+    <h4 class="govuk-heading-m">update-reason</h4>
+
+    <p>Enter a short reason for updating the development plan document or its status. If this is the first entry for the status, you can leave this blank </p>
+    
+    <h4 class="govuk-heading-m">evidence-base-url</h4>
+    <p>Enter the web address that links directly to the evidence base that supports this development management document. If the evidence base is not published, leave this blank.</p>
+    <h4 class="govuk-heading-m">type</h4>
+
+    <p>Enter the type of development plan document</p>
+
+    <ul class="govuk-list govuk-list--bullet">
+        <li>‘AAP’		Area Action Plan</li>
+        <li>‘CS’		Core Strategy</li>
+        <li>‘DM’		Development Management</li>
+        <li>‘LP’		Local Plan</li>
+        <li>‘M&W’	  Minerals & Waste</li>
+        <li>‘Other’	all other types</li>
+        <li>‘PR’		Partial Review</li>
+        <li>‘SA’		Site Allocations</li>
+
+    </ul>
+    
+    <h3 class="govuk-heading-m">CSV file 2: Policies</h3>
+    <p>Policies are contained within development plan documents and they set out the specific plans and measures to meet a local planning authority’s priorities.</p>
+    <p><a href="https://digital-land.github.io/guidance/data-principles/#not-deleting-entries-in-a-register" class="govuk-link">Do not delete or overwrite old or superseded policies</a>, but simply fill in the ‘end-date’ field<.</p>
+
+    <h3 class="govuk-heading-m">Name your CSV file</h3>
+    <p>Policies must be listed exactly as follows, but with the actual date you created the file instead of YYYYMMDD:</p>
+    <p>policy_YYYYMMDD.csv</p>
+    <h3 class="govuk-heading-m">Column headers:</h3>
+    <h4 class="govuk-heading-m">policy-id</h4>
+
+    <p>Create a unique identifier for the policy. By ‘unique’ this means it should not be used for anything else in your organisation (for example, policy-1).</p>
+    <h4 class="govuk-heading-m">dpd-id</h4>
+    <p>Enter the unique identifier for the development plan document that this policy is contained within.</p>
+    <h4 class="govuk-heading-m">policy-name</h4>
+    <p>Enter the name of the policy</p>
+    <h4 class="govuk-heading-m">document-url</h4>
+    <p>Enter the web address that links directly to the policy. If the policy does not have it’s own web address, leave this blank.</p>
+
+    <h4 class="govuk-heading-m">strategic</h4>
+    <p>Enter either ‘strategic’ or ‘non-strategic’ to record whether policy is strategic.</p>
+
+    <h4 class="govuk-heading-m">category</h4>
+
+    <p>Enter the strategic category or categories from the National Planning Policy Framework that are addressed in the policy from the list below. If there are multiple categories, separate each category with a space.</p>
+
+
+    <ul class="govuk-list govuk-list--bullet">
+        <li>‘HO’	housing</li>
+        <li>‘EM’	employment</li>
+        <li>‘RE’	retail</li>
+        <li>‘LE’	leisure</li>
+        <li>‘OC’	other commercial development</li>
+        <li>‘TI’	transport infrastructure</li>
+        <li>‘TE’	telecommunications</li>
+        <li>‘SE’	security</li>
+        <li>‘WM’	waste management</li>
+        <li>‘WS’	water supply</li>
+        <li>‘WW’	wastewater</li>
+        <li>‘FR’	flood risk</li>
+        <li>‘CC’	coastal change management</li>
+        <li>‘ME’	provision of minerals and energy</li>
+        <li>‘CF’	community facilities</li>
+        <li>‘CN’	conservation and enhancement of the natural environment</li>
+        <li>‘CB’	conservation and enhancement of the built environment</li>
+        <li>‘CH’	conservation and enhancement of the historic environment</li>
+
+    </ul>
+
+
+    <h4 class="govuk-heading-m">related-policy-id</h4>
+
+    <p>Enter the unique id of any related policies that should be read in conjunction with this policy. Separate multiple policies with a space.</p>
+    <h4 class="govuk-heading-m">shape</h4>
+    <p>Enter the polygon data that relates to the geographic area covered by the policy in <a href="https://geojson.org/" class="govuk-link">GeoJSON format</a></p>
+    <h4 class="govuk-heading-m">unit-type</h4>
+
+    <p>If the policy specifies a specific number or target, for example housing target numbers, enter the type of unit, as listed on our <a href="#" class="govuk-link">plan unit type</a> page.</p>
+    <p>More unit types will gradually be added to the plan-unit-type.csv file, which MHCLG will maintain for your reference.</p>
+
+    <h4 class="govuk-heading-m">unit</h4>
+    <p>If you have entered a unit-type, then enter the numeric value over the plan period</p>
+    <h4 class="govuk-heading-m">entry-date</h4>
+
+    <p>Enter the date that you record this data (for example today’s date), in the format YYYY-MM-DD. For 1 February 2019, for example, you should enter 2019-02-01.</p>
+    <h4 class="govuk-heading-m">start-date</h4>
+    <p>Enter the date that the policy comes into (or came into) effect.</p>
+    <p>Enter the date in the same format as the entry-date column.</p>
+    <h4 class="govuk-heading-m">end-date</h4>
+    <p>Leave this blank if this policy is still in effect. If the policy is changed or is no longer in effect, enter the date that this policy is no longer in effect.</p>
+    <p>Enter the date in the same format as the entry-date column.</p>
+    <h4 class="govuk-heading-m">description</h4>
+
+    <p>Enter a short (<100 character) description of the development plan document</p>
+    
+    <h4 class="govuk-heading-m">evidence-base-url</h4>
+
+    <p>Enter the web address that links directly to the evidence base that supports this policy. If the evidence base is not published, leave this blank.</p>
+
+      <h2 class="govuk-heading-l" id="step-2">Step 2: Update your local plan web page</h2>
+
+
+      <p>To complete step 2 you must be able to upload the files created in step 1 to your local planning authority’s website and edit (or create) your local plan web page. If you are not able or authorised to do this, speak to someone who is (this might be the person who updates your local planning authority’s brownfield site register or planning application web pages).</p>
+
+      <p>Upload each CSV file to your local planning authority’s website. Make sure the URL for each CSV file is <a href="https://en.wikipedia.org/wiki/Persistent_uniform_resource_locator" class="govuk-link"> persistent</a> (a web address that will not change over time). As an example, Norfolk’s local planning authority might use the following persistent addresses (note that these are examples, not live data):</p>
+
+      <p><a href="https://www.norfolk.gov.uk/development-management-document" class="govuk-link">https://www.norfolk.gov.uk/development-management-document</a></p> 
+      <p><a href="https://www.norfolk.gov.uk/policy" class="govuk-link">https://www.norfolk.gov.uk/policy</a></p>
+
+      <p>When you upload the files you should keep any older files online – it’s important to retain a history of all development management documents and policies</p>
+      <p>You should then update your local planning authority’s local plan web page to make the CSV files publicly available. </p>
+      <p>The page must list the persistent URLs as defined above. The URLs must be written out in full. (The URLs should not change. However, if they do, you must tell us.)</p>
+      
+      <h4 class="govuk-heading-m">Licensing</h4>
+      <p>You must state on your web page that the data is provided under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" class="govuk-link">Open Government Licence</a>.</p>
+
+    <h2 class="govuk-heading-l" id="step-3">Step 3: Submit the URLs you created in Step 2 to the national register of developer contributions</h2>
+
+    <p>MHCLG will maintain a national register of development plan documents and policies.</p>
+    <p>Email the persistent URL for each CSV file to <a href="#" class="govuk-link">DigitalLand@communities.gov.uk</a> and we will add them to the national register. You must tell us if these URLs ever change.</p>
   </div>
   </div>
   </div>
