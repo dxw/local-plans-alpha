@@ -34,13 +34,14 @@ router.post("/v3/plan-data", function (req, res) {
   }).map(function (plan) {
     return [
       {
-        html: plan['name']
+        html: `<a href="${plan['document-url']}" class='govuk-link'>${plan['name']} </a>`
+
       },
       {
         html: plan['status']
       },
       {
-        html: "<a href='#' class='govuk-link'>" + plan['planning-authority'] + "</a>"
+        html: `<a href="${plan['url']}" class='govuk-link'>${plan['planning-authority']} </a>`
       },
       {
         html: plan['policy-start-date']
@@ -50,6 +51,12 @@ router.post("/v3/plan-data", function (req, res) {
       },
       {
         html: plan['category']
+      },
+      {
+        html: plan['unit-type']
+      },
+      {
+        html: plan['unit']
       }
     ]
   })
@@ -80,6 +87,12 @@ router.get("/v3/plan-data", function (req, res) {
       },
       {
         html: plan['category']
+      },
+      {
+        html: plan['unit-type']
+      },
+      {
+        html: plan['unit']
       }
     ]
   })

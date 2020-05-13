@@ -1,6 +1,6 @@
 [
     {   
-        "status":"Adopted",
+        "status":"Adoption",
         "document":"dpd",
         "plan-type":"Local plan",
         "name":"Adur Local Plan 2017 (adopted) - Part 1",
@@ -10,13 +10,13 @@
         "policy-start-date":"2011",
         "policy-end-date":"2032",
         "type":"strategic",
-        "unit-type": "unit-type",
-        "unit": "unit",
+        "unit-type": "-",
+        "unit": "-",
         "category": "-"
 
     },
     {   
-        "status":"Adopted",
+        "status":"Adoption",
         "document":"dpd",
         "plan-type":"Local plan",
         "name":"Allerdale Local Plan (Part 1)",
@@ -26,8 +26,8 @@
         "policy-start-date":"2011",
         "policy-end-date":"2029",
         "type":"strategic",
-        "unit-type": "unit-type",
-        "unit": "unit",
+        "unit-type": "-",
+        "unit": "-",
         "category": "-"
 
     },
@@ -42,8 +42,8 @@
         "policy-start-date":"2011",
         "policy-end-date":"2028",
         "type":"strategic",
-        "unit-type": "unit-type",
-        "unit": "unit",
+        "unit-type": "-",
+        "unit": "-",
         "category": "-"
 
     },
@@ -55,11 +55,11 @@
         "document-url":"/v3/hackney-local-plan-2033",
         "planning-authority":"Hackney Council",
         "url":"/v3/hackney",
-        "policy-start-date":"start date",
-        "policy-end-date":"end date",
+        "policy-start-date":"2020",
+        "policy-end-date":"2033",
         "type":"strategic",
-        "unit-type": "unit-type",
-        "unit": "unit",
+        "unit-type": "-",
+        "unit": "-",
         "category": "-"
 
     },
@@ -71,16 +71,64 @@
         "document-url":"/v3/policy-public-realm",
         "planning-authority":"Hackney Council",
         "url":"/v3/hackney",
-        "policy-start-date":"start date",
-        "policy-end-date":"end date",
+        "policy-start-date":"2020",
+        "policy-end-date":"2033",
         "type":"strategic",
-        "unit-type": "unit-type",
-        "unit": "unit",
+        "unit-type": "-",
+        "unit": "-",
         "category": ["Conservation and enhancement of the built environment"]
 
     },
     {   
-        "status":"Adopted",
+        "status":"Examination",
+        "document":"policy",
+        "plan-type":"Local plan",
+        "name":"PP2 - Dalston",
+        "document-url":"/v3/dalston",
+        "planning-authority":"Hackney Council",
+        "url":"/v3/hackney",
+        "policy-start-date":"2020",
+        "policy-end-date":"2033",
+        "type":"strategic",
+        "unit-type": "-",
+        "unit": "-",
+        "category": ["Conservation and enhancement of the built environment"]
+
+    },
+    {   
+        "status":"Examination",
+        "document":"policy",
+        "plan-type":"Local plan",
+        "name":"LP12 - Housing supply",
+        "document-url":"/v3/housing-supply",
+        "planning-authority":"Hackney Council",
+        "url":"/v3/hackney",
+        "policy-start-date":"2020",
+        "policy-end-date":"2033",
+        "type":"strategic",
+        "unit-type": "new dwellings (net)",
+        "unit": "17290",
+        "category": ["Housing"]
+
+    },
+    {   
+        "status":"Examination",
+        "document":"policy",
+        "plan-type":"Local plan",
+        "name":"LP13 - Affordable Housing",
+        "document-url":"/v3/affordable-housing",
+        "planning-authority":"Hackney Council",
+        "url":"/v3/hackney",
+        "policy-start-date":"2020",
+        "policy-end-date":"2033",
+        "type":"strategic",
+        "unit-type": "new affordable dwellings (net)",
+        "unit": "5187",
+        "category": ["Housing"]
+
+    },
+    {   
+        "status":"Adoption",
         "document":"dpd",
         "plan-type":"Core strategy",
         "name":"Core strategy",
@@ -90,69 +138,10 @@
         "policy-start-date":"start date",
         "policy-end-date":"end date",
         "type":"strategic",
-        "unit-type": "unit-type",
-        "unit": "unit",
+        "unit-type": "-",
+        "unit": "-",
         "category": "-"
 
-    },
-    {   
-        "status":"adopted",
-        "document":"dpd",
-        "plan-type":"plantype",
-        "name":"name",
-        "document-url":"",
-        "planning-authority":"local planning authority",
-        "policy-start-date":"start date",
-        "policy-end-date":"end date",
-        "type":"strategic",
-        "unit-type": "unit-type",
-        "unit": "unit",
-        "category": ["HO", "EM", "T"]
-
-    },
-    {   
-        "status":"adopted",
-        "document":"dpd",
-        "plan-type":"plantype",
-        "name":"name",
-        "document-url":"",
-        "planning-authority":"local planning authority",
-        "policy-start-date":"start date",
-        "policy-end-date":"end date",
-        "type":"strategic",
-        "unit-type": "unit-type",
-        "unit": "unit",
-        "category": ["HO", "EM", "T"]
-
-    },
-    {   
-        "status":"adopted",
-        "document":"dpd",
-        "plan-type":"plantype",
-        "name":"name",
-        "document-url":"",
-        "planning-authority":"local planning authority",
-        "policy-start-date":"start date",
-        "policy-end-date":"end date",
-        "type":"strategic",
-        "unit-type": "unit-type",
-        "unit": "unit",
-        "category": ["HO", "EM", "T"]
-
-    },
-    {   
-        "status":"adopted",
-        "document":"dpd",
-        "plan-type":"plantype",
-        "name":"name",
-        "document-url":"",
-        "planning-authority":"local planning authority",
-        "policy-start-date":"start date",
-        "policy-end-date":"end date",
-        "type":"strategic",
-        "unit-type": "unit-type",
-        "unit": "unit",
-        "category": ["HO", "EM", "T"]
-
     }
+    
 ]

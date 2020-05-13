@@ -22,7 +22,7 @@
 {% block content %}
 
   <div class="govuk-grid-row">
-    <div class="govuk-grid-column-two-thirds">
+    <div class="govuk-grid-column-full">
 
       <h1 class="govuk-heading-xl">
         View plan data
@@ -58,6 +58,7 @@
 
 <div class= "govuk-grid-row">
     <div class="govuk-grid-column-full govuk-!-margin-top-9">
+      <h3 class="govuk-heading-l govuk-!-padding-bottom-7">Plan status overview for 2020</h3>
 
 {% from "govuk/components/table/macro.njk" import govukTable %}
 
@@ -84,13 +85,13 @@
         text: "January"
       },
       {
-        html: "<strong class='govuk-tag govuk-tag--blue'>34</strong>"
+        html: "<strong class='govuk-tag govuk-tag--blue'>4</strong>"
       },
       {
-        html: "<strong class='govuk-tag govuk-tag--orange'>2</strong>"
+        html: "<strong class='govuk-tag govuk-tag--orange'>12</strong>"
       },
       {
-      html:""
+        html: "<strong class='govuk-tag govuk-tag--yellow'>5</strong>"
       }
     ],
     [
@@ -98,13 +99,13 @@
         text: "February"
       },
       {
-        html: "<strong class='govuk-tag govuk-tag--blue'>2</strong>"
+        html: "<strong class='govuk-tag govuk-tag--blue'>0</strong>"
       },
       {
-      html:""
+        html: "<strong class='govuk-tag govuk-tag--orange'>2</strong>"
       },
       {
-      html:""
+        html: "<strong class='govuk-tag govuk-tag--yellow'>11</strong>"
       }
     ],
     [
@@ -112,13 +113,13 @@
         text: "March"
       },
       {
-        text: ""
+        html: "<strong class='govuk-tag govuk-tag--blue'>14</strong>"
       },
       {
-      html:""
+        html: "<strong class='govuk-tag govuk-tag--orange'>8</strong>"
       },
       {
-      html:""
+        html: "<strong class='govuk-tag govuk-tag--yellow'>0</strong>"
       }
     ],
         [
@@ -126,13 +127,13 @@
         text: "April"
       },
       {
-        text: ""
+        html: "<strong class='govuk-tag govuk-tag--blue'>10</strong>"
       },
       {
-      html:""
+        html: "<strong class='govuk-tag govuk-tag--orange'>13</strong>"
       },
       {
-      html:""
+        html: "<strong class='govuk-tag govuk-tag--yellow'>12</strong>"
       }
     ],
       [
@@ -140,13 +141,13 @@
         text: "May"
       },
       {
-        text: ""
+        html: "<strong class='govuk-tag govuk-tag--blue'>6</strong>"
       },
       {
-      html:""
+        html: "<strong class='govuk-tag govuk-tag--orange'>19</strong>"
       },
       {
-      html:""
+        html: "<strong class='govuk-tag govuk-tag--yellow'>24</strong>"
       }
     ],
     [
@@ -154,13 +155,13 @@
         text: "June"
       },
       {
-        text: ""
+        html: "<strong class='govuk-tag govuk-tag--blue'>0</strong>"
       },
       {
-      html:""
+        html: "<strong class='govuk-tag govuk-tag--orange'>6</strong>"
       },
       {
-      html:""
+        html: "<strong class='govuk-tag govuk-tag--yellow'>9</strong>"
       }
     ]
   ]
@@ -220,9 +221,9 @@
       selected: (queries.status == "Examination")
     },
     {
-      value: "adopted",
+      value: "Adoption",
       text: "Adoption",
-      selected: (queries.status == "Adopted")
+      selected: (queries.status == "Adoption")
     }
   ]
 }) }}
@@ -232,7 +233,7 @@
 <div class="inline">
 
 
-  <h3 class="govuk-heading-s">Document type</h3>
+  <h3 class="govuk-heading-s">Type</h3>
 
 
 {{ govukSelect({
@@ -348,12 +349,102 @@
     {
       value: "housing",
       text: "Housing",
-      selected: (queries.category == "housing")
+      selected: (queries.category == "Housing")
+    },
+    {
+      value: "employment",
+      text: "Employment",
+      selected: (queries.category == "Employment")
+    },
+    {
+      value: "retail",
+      text: "Retail",
+      selected: (queries.category == "Retail")
+    },
+    {
+      value: "employment",
+      text: "Employment",
+      selected: (queries.category == "Employment")
+    },
+    {
+      value: "leisure",
+      text: "Leisure",
+      selected: (queries.category == "Leisure")
+    },
+    {
+      value: "other commercial development",
+      text: "Other Commercial Development",
+      selected: (queries.category == "Other Commercial Development")
     },
     {
       value: "transport",
       text: "Transport",
       selected: (queries.category == "transport")
+    },
+    {
+      value: "telecommunications",
+      text: "Telecommunications",
+      selected: (queries.category == "Telecommunications")
+    },
+    {
+      value: "security",
+      text: "Security",
+      selected: (queries.category == "Security")
+    },
+    {
+      value: "security",
+      text: "Security",
+      selected: (queries.category == "Security")
+    },
+    {
+      value: "waste management",
+      text: "Waste management",
+      selected: (queries.category == "Waste management")
+    },
+    {
+      value: "water supply",
+      text: "Water supply",
+      selected: (queries.category == "Water supply")
+    },
+    {
+      value: "waste water",
+      text: "Waste water",
+      selected: (queries.category == "Waste water")
+    },
+    {
+      value: "flood risk",
+      text: "Flood risk",
+      selected: (queries.category == "Flood risk")
+    },
+    {
+      value: "coastal change management",
+      text: "Coastal change management",
+      selected: (queries.category == "Coastal change management")
+    },
+    {
+      value: "provision of minerals and energy",
+      text: "Provision of minerals and energy",
+      selected: (queries.category == "Provision of minerals and energy")
+    },
+    {
+      value: "community facilities",
+      text: "Community facilities",
+      selected: (queries.category == "Community facilities")
+    },
+    {
+      value: "conservation and enhancement of the natural environment",
+      text: "Conservation and enhancement of the natural environment",
+      selected: (queries.category == "Conservation and enhancement of the natural environment")
+    },
+    {
+      value: "conservation and enhancement of the built environment",
+      text: "Conservation and enhancement of the built environment",
+      selected: (queries.category == "Conservation and enhancement of the built environment")
+    },
+    {
+      value: "conservation and enhancement of the historic environment",
+      text: "Conservation and enhancement of the historic environment",
+      selected: (queries.category == "Conservation and enhancement of the historic environment")
     }
   ]
 }) }}
@@ -375,20 +466,19 @@
 
 
 
-  <p class="govuk-!-margin-bottom-9">There are <b>200 adopted plans</b> across <b>150 local planning authorities</b>.</p>
-
+<p class="govuk-!-margin-bottom-9 govuk-!-margin-top-9"><b>{{ plans.length }}</b> Results</p>
+<div class="scroll">
 {% from "govuk/components/table/macro.njk" import govukTable %}
 
 {% if plans|length %}
 
 {{ govukTable({
   caption: "",
-  classes: "scroll",
   firstCellIsHeader: false,
   head: [
     {
       html: "Name",
-      classes: "sort"
+      classes: "sort govuk-!-width-one-quarter"
 
     },
     {
@@ -396,23 +486,36 @@
       classes: "sort"
     },
     {
-      text: "Local planning authority"
+      text: "Local planning authority "
+
     },
     {
       html: "Policy start date<span></span>",
       classes: "sort"
+
     },
         {
       html: "Policy end date<span></span>",
       classes: "sort"
     },
-            {
+    {
       text: "Category"
+
+    },
+    {
+      text: "Unit type"
+
+
+    },
+        {
+      text: "Unit"
+
     }
   ],
   rows: plans
 }) }}
 
+</div>
 {% else %}
 
 <p>Sorry, there are no results for your search</p>
@@ -427,14 +530,15 @@
 
     <div class="govuk-grid-column-full">
 
-<hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
+<hr class="govuk-section-break govuk-section-break--xl ">
 
       <h3 class="govuk-heading-l govuk-!-margin-top-9">Local planning authorities</h3>
 
+<p class="govuk-body-l"> Search for a local plan by local planning authority
 <div class="govuk-form-group">
 
 <form class="form" action="/v3/hackney" method="post">
-        <label class="govuk-label govuk-!-font-weight-bold" for="local-authority-select">Search for planning authority</label>
+        <label class="govuk-label govuk-!-font-weight-bold" for="local-authority-select"></label>
           <span class="govuk-hint">E.g. East Riding of Yorkshire Council</span>
           <select class="govuk-select" name="local-authority-select" id="local-authority-select">
             <option value="">Select local authority</option>
