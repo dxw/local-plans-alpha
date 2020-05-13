@@ -181,10 +181,11 @@
 
 <div class="inline">
   <h3 class="govuk-heading-s">Plan status</h3>
+<form class="form" action="/v3/plan-data" method="post">
 
 
 {{ govukSelect({
-  id: "sort",
+  id: "status-select",
   name: "sort",
   label: {
     text: ""
@@ -358,7 +359,7 @@
   Search
 </button>
 </div>
-
+</form>
       <p><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTwBvGTiQP05bLZ2Livf2Ew8CkAWkAXOfiZygZC3kZ60l2IrqCKEJFPD8oiXmb4AHJ6AV5QkcSAav2O/pubhtml" class="govuk-link">Download results CSV 11.7KB</a></p>
 
 

@@ -13,6 +13,14 @@ router.get("/v3/organisation", function (req, res) {
   res.render('v3/organisation', { councils: councils });
 })
 
+router.post("/v3/plan-data", function (req, res) {
+  var planData = require('./data/plans.json')
+  var plan = planData.find(function(p) { 
+    p["status"] == req.query["status-select"]
+  })
+  res.render('plan-data', { plan: plan })
+})
+
 router.get("/v3/plan-data", function (req, res) {
   var councils = require('./data/councils.json')
   var planData = require('./data/plans.json')
