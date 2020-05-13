@@ -1,9 +1,11 @@
 [
     {   
         "status":"Adopted",
-        "document":"Local plan",
+        "document":"dpd",
+        "plan-type":"Local plan",
         "name":"Adur Local Plan 2017 (adopted) - Part 1",
         "planning-authority":"Adur District Council",
+        "url":"",
         "policy-start-date":"2011",
         "policy-end-date":"2032",
         "type":"strategic",
@@ -13,11 +15,13 @@
 
     },
     {   
-        "status":"adopted",
+        "status":"Examination",
         "document":"dpd",
-        "plan-type":"plantype",
-        "name":"name",
-        "planning-authority":"local planning authority",
+        "plan-type":"Local plan",
+        "name":"Local plan 2033",
+        "document-url":"/v3/hackney",
+        "planning-authority":"Hackney Council",
+        "url":"/v3/hackney",
         "policy-start-date":"start date",
         "policy-end-date":"end date",
         "type":"strategic",
