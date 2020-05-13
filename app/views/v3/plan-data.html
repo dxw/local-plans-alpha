@@ -182,46 +182,48 @@
 <div class="inline">
   <h3 class="govuk-heading-s">Plan status</h3>
 <form class="form" action="/v3/plan-data" method="post">
-
-
 {{ govukSelect({
   id: "status-select",
-  name: "sort",
+  name: "status",
   label: {
     text: ""
   },
   items: [
     {
-      value: "status",
-      text: "Status",
-      selected: true
-
+      value: null,
+      text: "Please select",
+      selected: (queries.status == undefined)
     },
-       {
+    {
       value: "over-5-years",
-      text: "Over 5 years"
-      },
+      text: "Over 5 years",
+      selected: (queries.status == "over-5-years")
+    },
     {
       value: "preparation",
-      text: "Preparation"
-      },
+      text: "Preparation",
+      selected: (queries.status == "Preparation")
+    },
     {
       value: "publication",
-      text: "Publication"
-      },
-        {
+      text: "Publication",
+      selected: (queries.status == "Publication")
+    },
+    {
       value: "submission",
-      text: "Submission"
-      },
+      text: "Submission",
+      selected: (queries.status == "Submission")
+    },
     {
       value: "examination",
-      text: "Examination"
-      },
-        {
-      value: "adoption",
-      text: "Adoption"
-      }
-
+      text: "Examination",
+      selected: (queries.status == "Examination")
+    },
+    {
+      value: "adopted",
+      text: "Adoption",
+      selected: (queries.status == "Adopted")
+    }
   ]
 }) }}
 
@@ -234,27 +236,27 @@
 
 
 {{ govukSelect({
-  id: "sort",
-  name: "sort",
+  id: "document",
+  name: "document",
   label: {
     text: ""
   },
   items: [
     {
-      value: "document-type",
-      text: "Document type",
-      selected: true
-
+      value: null,
+      text: "Please select",
+      selected: (queries.document == undefined)
     },
-       {
-      value: "DPD",
-      text: "Development management document"
-      },
+    {
+      value: "dpd",
+      text: "Development management document",
+      selected: (queries.document == "dpd")
+    },
     {
       value: "policy",
-      text: "Policy"
-      }
-
+      text: "Policy",
+      selected: (queries.document == "policy")
+    }
   ]
 }) }}
 
@@ -266,51 +268,57 @@
 
 
 {{ govukSelect({
-  id: "sort",
-  name: "sort",
+  id: "plan-type",
+  name: "plan-type",
   label: {
     text: ""
   },
   items: [
     {
-      value: "plan-type",
-      text: "Plan type",
-      selected: true
-
+      value: null,
+      text: "Please select",
+      selected: (queries["plan-type"] == undefined)
     },
-       {
+    {
       value: "AAP",
-      text: "Area Action Plan"
-      },
+      text: "Area Action Plan",
+      selected: (queries["plan-type"] == "AAP")
+    },
     {
       value: "CS",
-      text: "Core strategy"
-      },
+      text: "Core strategy",
+      selected: (queries["plan-type"] == "CS")
+    },
     {
       value: "DM",
-      text: "Development management"
-      },
-        {
+      text: "Development management",
+      selected: (queries["plan-type"] == "DM")
+    },
+    {
       value: "LP",
-      text: "Local plan"
-      },
+      text: "Local plan",
+      selected: (queries["plan-type"] == "LP")
+    },
     {
       value: "MW",
-      text: "Minerals and Waste"
-      },
-        {
+      text: "Minerals and Waste",
+      selected: (queries["plan-type"] == "MW")
+    },
+    {
       value: "other",
-      text: "All other types"
-      },
-      {
+      text: "All other types",
+      selected: (queries["plan-type"] == "other")
+    },
+    {
       value: "PR",
-      text: "Partial Review"
-      },
-      {
+      text: "Partial Review",
+      selected: (queries["plan-type"] == "PR")
+    },
+    {
       value: "SA",
-      text: "Site Allocations"
-      }
-
+      text: "Site Allocations",
+      selected: (queries["plan-type"] == "SA")
+    }
   ]
 }) }}
 
@@ -326,26 +334,27 @@
 
 
 {{ govukSelect({
-  id: "sort",
-  name: "sort",
+  id: "category",
+  name: "category",
   label: {
     text: ""
   },
   items: [
     {
-      value: "category",
-      text: "Category",
-      selected: true
-
+      value: null,
+      text: "Please select",
+      selected: (queries.category == undefined)
     },
     {
       value: "housing",
-      text: "Housing"    
-      },
+      text: "Housing",
+      selected: (queries.category == "housing")
+    },
     {
       value: "transport",
-      text: "Transport"    
-      }
+      text: "Transport",
+      selected: (queries.category == "transport")
+    }
   ]
 }) }}
 
@@ -369,6 +378,8 @@
   <p class="govuk-!-margin-bottom-9">There are <b>200 adopted plans</b> across <b>150 local planning authorities</b>.</p>
 
 {% from "govuk/components/table/macro.njk" import govukTable %}
+
+{% if plans|length %}
 
 {{ govukTable({
   caption: "",
@@ -401,6 +412,12 @@
   ],
   rows: plans
 }) }}
+
+{% else %}
+
+<p>Sorry, there are no results for your search</p>
+
+{% endif %}
 
 </div>
 
