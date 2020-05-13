@@ -4,6 +4,7 @@
         "document":"dpd",
         "plan-type":"Local plan",
         "name":"Adur Local Plan 2017 (adopted) - Part 1",
+        "document-url":"",
         "planning-authority":"Adur District Council",
         "url":"",
         "policy-start-date":"2011",
@@ -11,7 +12,39 @@
         "type":"strategic",
         "unit-type": "unit-type",
         "unit": "unit",
-        "category": ["Housing", "Transport"]
+        "category": "-"
+
+    },
+    {   
+        "status":"Adopted",
+        "document":"dpd",
+        "plan-type":"Local plan",
+        "name":"Allerdale Local Plan (Part 1)",
+        "document-url":"",
+        "planning-authority":"Allerdale Borough Council",
+        "url":"",
+        "policy-start-date":"2011",
+        "policy-end-date":"2029",
+        "type":"strategic",
+        "unit-type": "unit-type",
+        "unit": "unit",
+        "category": "-"
+
+    },
+    {   
+        "status":"Submitted",
+        "document":"dpd",
+        "plan-type":"Local plan",
+        "name":"Amber Valley Borough Local Plan",
+        "document-url":"",
+        "planning-authority":"Amber Valley Borough Council",
+        "url":"",
+        "policy-start-date":"2011",
+        "policy-end-date":"2028",
+        "type":"strategic",
+        "unit-type": "unit-type",
+        "unit": "unit",
+        "category": "-"
 
     },
     {   
@@ -19,6 +52,38 @@
         "document":"dpd",
         "plan-type":"Local plan",
         "name":"Local plan 2033",
+        "document-url":"/v3/hackney-local-plan-2033",
+        "planning-authority":"Hackney Council",
+        "url":"/v3/hackney",
+        "policy-start-date":"start date",
+        "policy-end-date":"end date",
+        "type":"strategic",
+        "unit-type": "unit-type",
+        "unit": "unit",
+        "category": "-"
+
+    },
+    {   
+        "status":"Examination",
+        "document":"policy",
+        "plan-type":"Local plan",
+        "name":"PP1 - Public Realm",
+        "document-url":"/v3/policy-public-realm",
+        "planning-authority":"Hackney Council",
+        "url":"/v3/hackney",
+        "policy-start-date":"start date",
+        "policy-end-date":"end date",
+        "type":"strategic",
+        "unit-type": "unit-type",
+        "unit": "unit",
+        "category": ["Conservation and enhancement of the built environment"]
+
+    },
+    {   
+        "status":"Adopted",
+        "document":"dpd",
+        "plan-type":"Core strategy",
+        "name":"Core strategy",
         "document-url":"/v3/hackney",
         "planning-authority":"Hackney Council",
         "url":"/v3/hackney",
@@ -27,7 +92,7 @@
         "type":"strategic",
         "unit-type": "unit-type",
         "unit": "unit",
-        "category": ["HO", "EM", "T"]
+        "category": "-"
 
     },
     {   
@@ -35,6 +100,7 @@
         "document":"dpd",
         "plan-type":"plantype",
         "name":"name",
+        "document-url":"",
         "planning-authority":"local planning authority",
         "policy-start-date":"start date",
         "policy-end-date":"end date",
@@ -49,6 +115,7 @@
         "document":"dpd",
         "plan-type":"plantype",
         "name":"name",
+        "document-url":"",
         "planning-authority":"local planning authority",
         "policy-start-date":"start date",
         "policy-end-date":"end date",
@@ -63,6 +130,7 @@
         "document":"dpd",
         "plan-type":"plantype",
         "name":"name",
+        "document-url":"",
         "planning-authority":"local planning authority",
         "policy-start-date":"start date",
         "policy-end-date":"end date",
@@ -77,6 +145,7 @@
         "document":"dpd",
         "plan-type":"plantype",
         "name":"name",
+        "document-url":"",
         "planning-authority":"local planning authority",
         "policy-start-date":"start date",
         "policy-end-date":"end date",

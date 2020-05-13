@@ -27,7 +27,7 @@ router.get("/v3/plan-data", function (req, res) {
   var plans = planData.map(function (plan) {
     return [
       {
-        html: `<a href='${plan['name']}'class='govuk-link'>${plan['name']}</a>`
+        html: `<a href='${plan['document-url']}'class='govuk-link'>${plan['name']}</a>`
 
       },
       {
