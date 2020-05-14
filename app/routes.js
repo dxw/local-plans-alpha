@@ -16,6 +16,7 @@ router.get("/v3/organisation", function (req, res) {
 router.post("/v3/plan-data", function (req, res) {
   var councils = require('./data/councils.json')
   var planData = require('./data/plans.json')
+  console.log(req.body)
   var queryKeys = Object.keys(req.body).filter(function(k,v) {
     return req.body[k] !== ''
   })
@@ -97,7 +98,7 @@ router.get("/v3/plan-data", function (req, res) {
     ]
   })
 
-  res.render('v3/plan-data#search', { councils: councils, plans: plans, queries: {} });
+  res.render('v3/plan-data', { councils: councils, plans: plans, queries: {document: []} });
 })
 
 module.exports = router
