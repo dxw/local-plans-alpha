@@ -9,7 +9,7 @@
         "url":"",
         "policy-start-date":"2011",
         "policy-end-date":"2032",
-        "type":"strategic",
+        "type":"",
         "unit-type": "-",
         "unit": "-",
         "category": "-"
@@ -25,7 +25,7 @@
         "url":"",
         "policy-start-date":"2011",
         "policy-end-date":"2029",
-        "type":"strategic",
+        "type":"",
         "unit-type": "-",
         "unit": "-",
         "category": "-"
@@ -41,7 +41,7 @@
         "url":"",
         "policy-start-date":"2011",
         "policy-end-date":"2028",
-        "type":"strategic",
+        "type":"",
         "unit-type": "-",
         "unit": "-",
         "category": "-"
@@ -57,7 +57,7 @@
         "url":"/v3/hackney",
         "policy-start-date":"2020",
         "policy-end-date":"2033",
-        "type":"strategic",
+        "type":"",
         "unit-type": "-",
         "unit": "-",
         "category": "-"
@@ -89,7 +89,7 @@
         "url":"/v3/hackney",
         "policy-start-date":"2020",
         "policy-end-date":"2033",
-        "type":"strategic",
+        "type":"Strategic",
         "unit-type": "-",
         "unit": "-",
         "category": ["Conservation and enhancement of the built environment"]
@@ -105,7 +105,7 @@
         "url":"/v3/hackney",
         "policy-start-date":"2020",
         "policy-end-date":"2033",
-        "type":"strategic",
+        "type":"Strategic",
         "unit-type": "new dwellings (net)",
         "unit": "17290",
         "category": ["Housing"]
@@ -121,7 +121,7 @@
         "url":"/v3/hackney",
         "policy-start-date":"2020",
         "policy-end-date":"2033",
-        "type":"strategic",
+        "type":"Strategic",
         "unit-type": "new affordable dwellings (net)",
         "unit": "5187",
         "category": ["Housing"]
@@ -137,7 +137,7 @@
         "url":"/v3/hackney",
         "policy-start-date":"start date",
         "policy-end-date":"end date",
-        "type":"strategic",
+        "type":"",
         "unit-type": "-",
         "unit": "-",
         "category": "-"

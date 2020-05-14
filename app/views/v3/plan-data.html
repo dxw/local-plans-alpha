@@ -67,17 +67,20 @@
   classes:"table-size",
   firstCellIsHeader: false,
   head: [
+
     {
       text: "Month"
     },
+      {
+      text: "Submission"
+    },
+       {
+      text: "Examination"
+    },  
     {
       text: "Adoption"
-    },
-    {
-      text: "Examination"
-    },    {
-      text: "Submission"
     }
+ 
   ],
   rows: [
     [
@@ -85,27 +88,28 @@
         text: "January"
       },
       {
-        html: "<strong class='govuk-tag govuk-tag--blue'>4</strong>"
+        html: "<strong class='govuk-tag govuk-tag--yellow'>5</strong>"
       },
       {
         html: "<strong class='govuk-tag govuk-tag--orange'>12</strong>"
       },
       {
-        html: "<strong class='govuk-tag govuk-tag--yellow'>5</strong>"
+        html: "<strong class='govuk-tag govuk-tag--blue'>4</strong>"
       }
+      
     ],
     [
       {
         text: "February"
       },
       {
-        html: "<strong class='govuk-tag govuk-tag--blue'>0</strong>"
+        html: "<strong class='govuk-tag govuk-tag--yellow'>11</strong>"
       },
-      {
+       {
         html: "<strong class='govuk-tag govuk-tag--orange'>2</strong>"
       },
       {
-        html: "<strong class='govuk-tag govuk-tag--yellow'>11</strong>"
+        html: "<strong class='govuk-tag govuk-tag--blue'>0</strong>"
       }
     ],
     [
@@ -113,13 +117,13 @@
         text: "March"
       },
       {
-        html: "<strong class='govuk-tag govuk-tag--blue'>14</strong>"
+        html: "<strong class='govuk-tag govuk-tag--yellow'>0</strong>"
       },
       {
         html: "<strong class='govuk-tag govuk-tag--orange'>8</strong>"
-      },
+      },      
       {
-        html: "<strong class='govuk-tag govuk-tag--yellow'>0</strong>"
+        html: "<strong class='govuk-tag govuk-tag--blue'>14</strong>"
       }
     ],
         [
@@ -127,27 +131,28 @@
         text: "April"
       },
       {
-        html: "<strong class='govuk-tag govuk-tag--blue'>10</strong>"
+        html: "<strong class='govuk-tag govuk-tag--yellow'>12</strong>"
       },
-      {
+       {
         html: "<strong class='govuk-tag govuk-tag--orange'>13</strong>"
       },
       {
-        html: "<strong class='govuk-tag govuk-tag--yellow'>12</strong>"
+        html: "<strong class='govuk-tag govuk-tag--blue'>10</strong>"
       }
+      
     ],
       [
       {
         text: "May"
       },
       {
-        html: "<strong class='govuk-tag govuk-tag--blue'>6</strong>"
+        html: "<strong class='govuk-tag govuk-tag--yellow'>24</strong>"
       },
-      {
+       {
         html: "<strong class='govuk-tag govuk-tag--orange'>19</strong>"
       },
       {
-        html: "<strong class='govuk-tag govuk-tag--yellow'>24</strong>"
+        html: "<strong class='govuk-tag govuk-tag--blue'>6</strong>"
       }
     ],
     [
@@ -155,14 +160,15 @@
         text: "June"
       },
       {
-        html: "<strong class='govuk-tag govuk-tag--blue'>0</strong>"
+        html: "<strong class='govuk-tag govuk-tag--yellow'>9</strong>"
       },
       {
         html: "<strong class='govuk-tag govuk-tag--orange'>6</strong>"
       },
       {
-        html: "<strong class='govuk-tag govuk-tag--yellow'>9</strong>"
+        html: "<strong class='govuk-tag govuk-tag--blue'>0</strong>"
       }
+      
     ]
   ]
 }) }}
@@ -257,14 +263,43 @@
     }
   ]
 }) }}
+</div>
+    <div class="inline">
+
+
+  <h3 class="govuk-heading-s">Type</h3>
+
+{{ govukSelect({
+  id: "type-select",
+  name: "type",
+  label: {
+    text: ""
+  },
+  items: [
+    {
+      value: null,
+      text: "Please select",
+      selected: (queries.status == undefined)
+    },
+    {
+      value: "Strategic",
+      text: "Strategic",
+      selected: (queries.status == "strategic")
+    },
+      {
+      value: "Non-strategic",
+      text: "Non-strategic",
+      selected: (queries.status == "Non-strategic")
+    }
+  ]
+}) }}
 
 </div>
 
 
-
 <div class="inline">
 
-  <h3 class="govuk-heading-s">Plan type</h3>
+  <h3 class="govuk-heading-s">Document type</h3>
 
 
 {{ govukSelect({
@@ -520,7 +555,6 @@
 
 {% endif %}
 
-</div>
 </div>
 
 
