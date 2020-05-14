@@ -97,7 +97,7 @@ router.get("/v3/plan-data", function (req, res) {
     ]
   })
 
-  res.render('v3/plan-data', { councils: councils, plans: plans, queries: {} });
+  res.render('v3/plan-data#search', { councils: councils, plans: plans, queries: {} });
 })
 
 module.exports = router

@@ -65,7 +65,7 @@
     },
     {   
         "status":"Examination",
-        "document":"policy",
+        "document":"Policy",
         "plan-type":"Local plan",
         "name":"PP1 - Public Realm",
         "document-url":"/v3/policy-public-realm",
@@ -81,7 +81,7 @@
     },
     {   
         "status":"Examination",
-        "document":"policy",
+        "document":"Policy",
         "plan-type":"Local plan",
         "name":"PP2 - Dalston",
         "document-url":"/v3/policy-dalston",
@@ -97,7 +97,7 @@
     },
     {   
         "status":"Examination",
-        "document":"policy",
+        "document":"Policy",
         "plan-type":"Local plan",
         "name":"LP12 - Housing supply",
         "document-url":"/v3/policy-housing-supply",
@@ -113,7 +113,7 @@
     },
     {   
         "status":"Examination",
-        "document":"policy",
+        "document":"Policy",
         "plan-type":"Local plan",
         "name":"LP13 - Affordable Housing",
         "document-url":"/v3/affordable-housing",

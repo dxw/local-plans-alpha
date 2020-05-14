@@ -53,7 +53,7 @@
           </div>
           <div class="govuk-grid-column-one-half">
             <h2 class="govuk-heading-xl govuk-!-margin-bottom-0">9</h2>
-            <p class="govuk-body-m">Local plans over five years</p>
+            <p class="govuk-body-m">Local plans over five years old</p>
           </div>
 
 <div class= "govuk-grid-row">
@@ -179,6 +179,61 @@
           <h3 class="govuk-heading-l govuk-!-margin-top-9">Search the data</h3>
 
 
+<div class="" id="search">
+
+
+  <h3 class="govuk-heading-s">Filter by:</h3>
+
+
+{% from "govuk/components/checkboxes/macro.njk" import govukCheckboxes %}
+
+{{ govukCheckboxes({
+  id: "document",
+  name: "document",
+  classes: "govuk-checkboxes--small",
+  fieldset: {
+    legend: {
+      text: ""
+    }
+  },
+
+  items: [
+    {
+      value: "dpd",
+      text: "Development management document",
+      checked: (queries.document == "dpd")
+    },
+    {
+      value: "Policy",
+      text: "Policy",
+      checked: (queries.document == "Policy")
+      }
+  ]
+}) }}
+
+{# {{ govukSelect({
+  id: "document",
+  name: "document",
+  label: {
+    text: ""
+  },
+  items: [
+
+    {
+      value: "dpd",
+      text: "Development management document",
+      selected: (queries.document == "dpd")
+    },
+    {
+      value: "Policy",
+      text: "Policy",
+      selected: (queries.document == "Policy")
+    }
+  ]
+}) }} #}
+
+</div>
+
 
 <div class="inline">
   <h3 class="govuk-heading-s">Plan status</h3>
@@ -230,38 +285,7 @@
 
 </div>
 
-<div class="inline">
 
-
-  <h3 class="govuk-heading-s">Type</h3>
-
-
-{{ govukSelect({
-  id: "document",
-  name: "document",
-  label: {
-    text: ""
-  },
-  items: [
-    {
-      value: null,
-      text: "Please select",
-      selected: (queries.document == undefined)
-    },
-    {
-      value: "dpd",
-      text: "Development management document",
-      selected: (queries.document == "dpd")
-    },
-    {
-      value: "policy",
-      text: "Policy",
-      selected: (queries.document == "policy")
-    }
-  ]
-}) }}
-
-</div>
 
 <div class="inline">
 
@@ -509,7 +533,6 @@
     },
         {
       text: "Unit"
-
     }
   ],
   rows: plans
