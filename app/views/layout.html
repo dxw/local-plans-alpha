@@ -48,8 +48,15 @@
     containerClasses: "govuk-width-container"
   }) }}
 
+{% endblock %}
 
-
+{% block beforeContent %}
+  {{ govukPhaseBanner({
+    tag: {
+      text: "alpha"
+    },
+    html: 'This is a prototype – your <a class="govuk-link" href="mailto:digitalland@communities.gov.uk?subject=Feedback on Local plans alpha prototype">feedback</a> will help us to improve it.'
+  }) }}
 {% endblock %}
 
 {% set mainClasses = mainClasses | default("govuk-main-wrapper--auto-spacing") %}

@@ -51,16 +51,25 @@
 
     <div class="masthead">
       <div class="hero-banner">
-              <div class="govuk-grid-row">
-            <div class="govuk-grid-column-full">
+        <div class="govuk-grid-row">
+          <div class="govuk-grid-column-full">
 
-        <h1 class="govuk-heading-xl">
-            {% if serviceName %} {{ serviceName }} {% endif %}
-        </h1>
-    <p class="govuk-body-l">Find a local plan and view plan data</p>
+            <h1 class="govuk-heading-xl">
+                {% if serviceName %} {{ serviceName }} {% endif %}
+            </h1>
+            <p class="govuk-body-l">Find a local plan and view plan data</p>
+          </div>
+        </div>
+      </div>
     </div>
-    </div>
-</div>
+
+    <div class="govuk-width-container">
+    {{ govukPhaseBanner({
+      tag: {
+        text: "alpha"
+      },
+      html: 'This is a prototype – your <a class="govuk-link" href="mailto:digitalland@communities.gov.uk?subject=Feedback on Local plans alpha prototype">feedback</a> will help us to improve it.'
+    }) }}
     </div>
 
 {% endblock %}
